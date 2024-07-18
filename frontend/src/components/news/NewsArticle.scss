@@ -1,0 +1,41 @@
+@import '../../main.scss';
+
+.news-article {
+    display: flex;
+    margin-bottom:25px;
+}
+
+.news-article-header {
+    background-color: $background-green;
+
+    h2 {
+        display: block;
+        font-size: 1.5em;
+        font-weight: bold;
+        color:white;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        max-width: 250px;
+        max-height: 250px;
+        //height: 250px;
+        //width: auto;
+    }
+}
+
+.news-article-body {
+    padding: 10px 25px 10px 25px;
+
+    a {
+        color:$text-color-green;
+        text-decoration: underline;
+        margin-top: 50px;
+    }
+
+    a:hover {
+        color:purple;
+        cursor: pointer;
+    }
+}

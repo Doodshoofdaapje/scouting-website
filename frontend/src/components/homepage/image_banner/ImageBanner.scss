@@ -1,0 +1,15 @@
+.image-container {
+    width: 100%;
+    object-fit: cover;
+    // height: 70vh; /* Set the desired height */
+    // overflow: hidden; /* Hide overflowing content */
+    // position: relative; /* Establish positioning context for absolute positioning */
+  }
+  
+.cropped-image {
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Preserve the aspect ratio */
+    top: 50%; /* Move the image halfway down the container */
+    transform: translate(0, 0);
+    z-index: 1;
+}

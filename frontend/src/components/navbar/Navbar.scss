@@ -1,0 +1,124 @@
+@import '../../main.scss';
+
+$navbar-height: 60px;
+
+.navbar {
+    padding:10px;
+    display: flex;
+    height:$navbar-height;
+    background-color: $background;
+}
+
+.navbar-logo img{
+    max-width: 120px;
+    max-height: 120px;
+    height: auto;
+    width: auto;
+
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    display: flex;
+    margin:0px;
+    margin-right: 5%;
+}
+
+.navbar-items {
+    margin:auto;
+    margin-right: 2%;
+}
+
+.nav-item {
+    margin: auto;
+    margin-left: 1.5em;
+    white-space: nowrap;
+}
+
+.nav-item a {
+    color: $text-color-green;
+    font-size: 18px;
+}
+
+.nav-item a::after {
+    content: '';
+    width: 0;
+    height: 4px; /* Adjust the thickness here */
+    display: block;
+    background: $text-color-green; /* Same color as the text */
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.navbar-toggler {
+    margin:auto;
+    margin-right: 3%;
+    margin-left: 2%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navbar-toggler-bar1, .navbar-toggler-bar2, .navbar-toggler-bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: $text-color-green;
+    transition: transform 0.3s ease;
+    margin: 6px 0;
+}
+
+.navbar-toggler.open .navbar-toggler-bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.navbar-toggler.open .navbar-toggler-bar2 {
+    opacity: 0;
+}
+
+.navbar-toggler.open .navbar-toggler-bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+.collapse-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 200px 0px 100px;
+
+    font-size: 1.15em;
+    background-color: white;
+
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+
+    ul {
+        margin-left: auto;
+        margin-right: auto;
+        list-style: none;
+    }
+
+    li:hover {
+        cursor: pointer;
+        color: $text-color-green
+    }
+
+    p {
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    p:hover {
+        color: $text-color-green
+    }
+}
+
+.collapse-content.open {
+    max-height: 3000px;
+    padding: 50px 200px 10px 100px;
+}
