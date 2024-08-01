@@ -11,7 +11,7 @@ function ASG_Speltakken() {
 
     return(
         <>
-        <div className="container asg-name">
+        <div className="container">
             
             <div className='page-header'>
                 <div>
@@ -36,7 +36,7 @@ function ASG_Speltakken() {
             </div>
 
             <div className='image-gallery'>
-                <a>
+                <a href='speltakken/bevers'>
                     <div>
                         <img src={imgBevers}/>
                         <hr/>
@@ -48,7 +48,7 @@ function ASG_Speltakken() {
                         </p>
                     </div>
                 </a>
-                <a>
+                <a href='speltakken/welpen'>
                     <div>
                         <img src={imgWelpen}/>
                         <hr/>

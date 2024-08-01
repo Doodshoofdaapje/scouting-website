@@ -47,7 +47,6 @@ function Navbar() {
                     <a href='naam'> <li>Naam ASG</li> </a>
                     <li>Geschiedenis ASG</li>
                     <a href='speltakken'> <li>Speltakken</li> </a>
-                    <li>Speltaknamen</li>
                     <li>Uniform</li>
                     <li>Lidmaatschap</li>
                     <li>Groepsbestuur</li>

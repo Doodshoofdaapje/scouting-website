@@ -9,7 +9,7 @@ function ASG_Name() {
 
     return(
         <>
-        <div className="container asg-name">
+        <div className="container">
             
             <div className='page-header'>
                 <div>
@@ -52,9 +52,6 @@ function ASG_Name() {
                 <div>
                     <img src={imgAfica}/>
                     <hr/>
-                    <p>
-                        
-                    </p>
                 </div>
                 <div>
                     <img src={imgBoat}/>

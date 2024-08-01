@@ -34,13 +34,13 @@ $navbar-height: 60px;
 }
 
 .nav-item {
+    color: $text-color-green;
     margin: auto;
     margin-left: 1.5em;
     white-space: nowrap;
 }
 
 .nav-item a {
-    color: $text-color-green;
     font-size: 18px;
 }
 
