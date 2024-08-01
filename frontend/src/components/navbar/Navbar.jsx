@@ -46,7 +46,7 @@ function Navbar() {
                     <li>Infographic ASG</li>
                     <a href='naam'> <li>Naam ASG</li> </a>
                     <li>Geschiedenis ASG</li>
-                    <li>Speltakken</li>
+                    <a href='speltakken'> <li>Speltakken</li> </a>
                     <li>Speltaknamen</li>
                     <li>Uniform</li>
                     <li>Lidmaatschap</li>

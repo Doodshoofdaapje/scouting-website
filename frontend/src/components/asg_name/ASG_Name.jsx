@@ -13,12 +13,6 @@ function ASG_Name() {
             
             <div className='page-header'>
                 <div>
-                    <h1>
-                        ASG Naam
-                    </h1>
-                </div>
-                
-                <div>
                     <p>
                     Onze scoutinggroep is genoemd naar Albert Schweitzer, winnaar van de Nobelprijs voor de vrede, die leefde van 1875 tot 1965. 
                     Albert Schweitzer was een veelzijdige persoon: hij was een arts, theoloog, filosoof en musicus. Hij werd vooral bekend door zijn werk 
@@ -28,11 +22,11 @@ function ASG_Name() {
                 </div>
             </div>  
             
-            {/* <div className='content-header'>
+            <div className='content-header'>
                 <h1>
                     Albert Schweitzer
                 </h1>
-            </div> */}
+            </div>
             
             <div className='page-content'>
                 <p>
