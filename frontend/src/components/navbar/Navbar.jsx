@@ -14,7 +14,7 @@ function Navbar() {
         <>   
             <nav className="navbar"> 
                 <div>
-                    <a className = "navbar-logo" href="#">
+                    <a className = "navbar-logo" href="/">
                         <img src={logo} ></img>
                     </a> 
                 </div>
@@ -44,7 +44,7 @@ function Navbar() {
                 <ul> 
                     <p>Groep</p>
                     <li>Infographic ASG</li>
-                    <li>Naam ASG</li>
+                    <a href='naam'> <li>Naam ASG</li> </a>
                     <li>Geschiedenis ASG</li>
                     <li>Speltakken</li>
                     <li>Speltaknamen</li>
@@ -90,7 +90,6 @@ function Navbar() {
                 <ul> 
                     <p>Overig</p>
                     <li>Nieuws</li>
-                    <li>Agenda</li>
                     <li>Contact</li>
                     <li>Privacy</li>
                     <li>Veiligheid</li>

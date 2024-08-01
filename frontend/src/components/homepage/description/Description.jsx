@@ -5,9 +5,10 @@ function Description() {
         <div className='description'>
             
             <p>
-                In het hart van Breda vind je onze kleine, maar zeer betrokken scoutinggroep. 
-                Scouting ASG is een warme gemeenschap waar vrijwilligers zich met hart en ziel 
-                inzetten om onvergetelijke avonturen en leerervaringen te creëren voor jong en oud.
+                In het hart van Breda vind je onze kleine, maar zeer betrokken scoutinggroep. Scouting ASG is een warme gemeenschap 
+                waar vrijwilligers zich met hart en ziel inzetten om onvergetelijke avonturen en leerervaringen te creëren voor jong en oud. 
+                Onze groep bestaat uit enthousiaste leden van alle leeftijden, van jonge welpen tot ervaren scouts en volwassen leiders, 
+                die allemaal samenwerken om een veilige en stimulerende omgeving te bieden.
             </p>
             
             {/* <p>

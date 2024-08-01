@@ -7,6 +7,7 @@ $navbar-height: 60px;
     display: flex;
     height:$navbar-height;
     background-color: $background;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-logo img{
@@ -90,7 +91,7 @@ $navbar-height: 60px;
     flex-wrap: wrap;
     padding: 0px 200px 0px 100px;
 
-    font-size: 1.15em;
+    font-size: 1em;
     background-color: white;
 
     max-height: 0;
@@ -121,4 +122,5 @@ $navbar-height: 60px;
 .collapse-content.open {
     max-height: 3000px;
     padding: 50px 200px 10px 100px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
 }
