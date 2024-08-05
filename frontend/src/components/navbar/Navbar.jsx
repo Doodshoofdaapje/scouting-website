@@ -21,7 +21,7 @@ function Navbar() {
                 <div className="navbar-items">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className ="nav-link" href="#">Lid worden</a>
+                            <a className ="nav-link" href="#/lidmaatschap">Lid worden</a>
                         </li>
                         <li className="nav-item">
                             <a className ="nav-link" href="#">Onze groep</a>
