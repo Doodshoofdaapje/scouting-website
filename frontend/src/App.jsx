@@ -19,7 +19,7 @@ function App() {
     <>
       <Navbar/>
 
-      <Router>
+      <Router basename="/scouting-website">
         <Routes>
           <Route exact={true} path="/" element={<HomePage/>}/>
           <Route exact={true} path="/naam" element={<ASG_Name/>}/>

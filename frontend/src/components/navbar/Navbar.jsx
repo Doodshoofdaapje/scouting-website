@@ -14,7 +14,7 @@ function Navbar() {
         <>   
             <nav className="navbar"> 
                 <div>
-                    <a className = "navbar-logo" href="/">
+                    <a className = "navbar-logo" href="/scouting-website/">
                         <img src={logo} ></img>
                     </a> 
                 </div>
@@ -44,11 +44,11 @@ function Navbar() {
                 <ul> 
                     <p>Groep</p>
                     <li>Infographic ASG</li>
-                    <a href='/naam'> <li>Naam ASG</li> </a>
+                    <a href='/scouting-website/naam'> <li>Naam ASG</li> </a>
                     <li>Geschiedenis ASG</li>
-                    <a href='/speltakken'> <li>Speltakken</li> </a>
-                    <a href='/uniform'> <li>Uniform</li> </a>
-                    <a href='/lidmaatschap'> <li>Lidmaatschap</li> </a>
+                    <a href='/scouting-website/speltakken'> <li>Speltakken</li> </a>
+                    <a href='/scouting-website/uniform'> <li>Uniform</li> </a>
+                    <a href='/scouting-website/lidmaatschap'> <li>Lidmaatschap</li> </a>
                     <li>Groepsbestuur</li>
                 </ul>
                 <ul>

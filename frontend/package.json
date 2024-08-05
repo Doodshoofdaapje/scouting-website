@@ -1,6 +1,5 @@
 {
   "name": "frontend",
-  "homepage": "https://doodshoofdaapje.github.io/scouting-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
