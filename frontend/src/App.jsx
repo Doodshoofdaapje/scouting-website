@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import Navbar from './components/navbar/Navbar';
 import HomePage from './components/homepage/Homepage';
 import Footer from './components/footer/Footer';
-import {Route, BrowserRouter as Router, Routes} from 'react-router-dom'
+import {Route, HashRouter as Router, Routes} from 'react-router-dom'
 import ASG_Name from './components/asg_name/ASG_Name';
 import ASG_Speltakken from './components/asg_speltakken/ASG_Speltakken';
 import Bevers from './components/asg_speltakken/Bevers';
@@ -19,19 +19,19 @@ function App() {
     <>
       <Navbar/>
 
-      <Router basename="/scouting-website">
+      <Router>
         <Routes>
-          <Route exact={true} path="/" element={<HomePage/>}/>
-          <Route exact={true} path="/naam" element={<ASG_Name/>}/>
-          <Route exact={true} path="/speltakken" element={<ASG_Speltakken/>}/>
-          <Route exact={true} path="/speltakken/bevers" element={<Bevers/>}/>
-          <Route exact={true} path="/speltakken/welpen" element={<Welpen/>}/>
-          <Route exact={true} path="/speltakken/scouts" element={<Scouts/>}/>
-          <Route exact={true} path="/speltakken/rsa" element={<RSA/>}/>
-          <Route exact={true} path="/speltakken/pivos" element={<Pivos/>}/>
-          <Route exact={true} path="/speltakken/senioren" element={<Senioren/>}/>
-          <Route exact={true} path="/uniform" element={<Uniform/>}/>
-          <Route exact={true} path="/lidmaatschap" element={<Lidmaatschap/>}/>
+          <Route path="/" element={<HomePage/>}/>
+          <Route path="/naam" element={<ASG_Name/>}/>
+          <Route path="/speltakken" element={<ASG_Speltakken/>}/>
+          <Route path="/speltakken/bevers" element={<Bevers/>}/>
+          <Route path="/speltakken/welpen" element={<Welpen/>}/>
+          <Route path="/speltakken/scouts" element={<Scouts/>}/>
+          <Route path="/speltakken/rsa" element={<RSA/>}/>
+          <Route path="/speltakken/pivos" element={<Pivos/>}/>
+          <Route path="/speltakken/senioren" element={<Senioren/>}/>
+          <Route path="/uniform" element={<Uniform/>}/>
+          <Route path="/lidmaatschap" element={<Lidmaatschap/>}/>
         </Routes>
       </Router>
 
