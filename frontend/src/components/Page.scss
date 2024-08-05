@@ -63,6 +63,36 @@
     hr {
         margin: 50px 0px;
     }
+
+    a {
+        color:$text-color-green;
+        text-decoration: underline;
+    }
+
+    a:visited {
+        color: $text-color-green;
+    }
+
+    a:hover {
+        color:purple;
+        cursor: pointer;
+    }
+
+    button{
+        display: block;
+        padding: 15px 25px 15px 25px;
+        border:none;
+        border-radius: 15px;
+
+        background-color: $background-green;
+        color: white;
+        text-align: center;
+    }
+    
+    button:hover {
+        background-color: $background-green-hover;
+        cursor: pointer;
+    }
 }
 
 .content-image {
@@ -72,7 +102,7 @@
 
 .image-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: auto auto auto;
     gap:50px;
 
     a {

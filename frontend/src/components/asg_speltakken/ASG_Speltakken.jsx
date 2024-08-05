@@ -60,7 +60,7 @@ function ASG_Speltakken() {
                         </p>
                     </div>
                 </a>
-                <a>
+                <a href='speltakken/scouts'>
                     <div>
                         <img src={imgScouts}/>
                         <hr/>
@@ -72,7 +72,7 @@ function ASG_Speltakken() {
                         </p>
                     </div>
                 </a>
-                <a>
+                <a href='speltakken/rsa'>
                     <div>
                         <img src={imgRSA}/>
                         <hr/>
@@ -84,7 +84,7 @@ function ASG_Speltakken() {
                         </p>
                     </div>
                 </a>
-                <a>
+                <a href='speltakken/pivos'>
                     <div>
                         <img src={imgPivos}/>
                         <hr/>
@@ -96,7 +96,7 @@ function ASG_Speltakken() {
                         </p>
                     </div>
                 </a>  
-                <a>
+                <a href='speltakken/senioren'>
                     <div>
                         <img src={imgSenioren}/>
                         <hr/>
@@ -104,7 +104,7 @@ function ASG_Speltakken() {
                             Plus scouts (Senioren)
                         </h3>
                         <p>
-                            (ouder dan 18 jaar)
+                            (ouder dan 21 jaar)
                         </p>
                     </div>
                 </a>     

@@ -1,5 +1,5 @@
 import '../Page.scss';
-import imgWelpen from '../../assets/asg_speltakken/welpen.jpg';
+import imgWelpen from '../../assets/asg_speltakken/welpengroep.png';
 import imgOeghana from '../../assets/asg_speltakken/oeghanga.jpg';
 
 function Welpen() {

@@ -44,11 +44,11 @@ function Navbar() {
                 <ul> 
                     <p>Groep</p>
                     <li>Infographic ASG</li>
-                    <a href='naam'> <li>Naam ASG</li> </a>
+                    <a href='/naam'> <li>Naam ASG</li> </a>
                     <li>Geschiedenis ASG</li>
-                    <a href='speltakken'> <li>Speltakken</li> </a>
-                    <li>Uniform</li>
-                    <li>Lidmaatschap</li>
+                    <a href='/speltakken'> <li>Speltakken</li> </a>
+                    <a href='/uniform'> <li>Uniform</li> </a>
+                    <a href='/lidmaatschap'> <li>Lidmaatschap</li> </a>
                     <li>Groepsbestuur</li>
                 </ul>
                 <ul>
