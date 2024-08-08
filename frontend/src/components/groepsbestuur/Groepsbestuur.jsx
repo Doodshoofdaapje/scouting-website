@@ -53,7 +53,9 @@ function Groepsbestuur() {
 
                 <p>
                     Wat staat er in de statuten? 
-                    <ul>
+                </p>
+
+                <ul>
                         <li> Naam en organisatorische opbouw van de groep </li>
                         <li> Doel van de vereniging </li>
                         <li> Regels m.b.t. Lidmaatschap </li> 
@@ -64,7 +66,6 @@ function Groepsbestuur() {
                         <li> Hoe te handelen bij ontbinding en vereffening, bij geschillen en reglementen </li>
                         <li> Slotverklaring van een notaris </li>
                     </ul>
-                </p>
             </div>
 
             <hr/>

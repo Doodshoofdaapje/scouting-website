@@ -1,14 +1,21 @@
 import './Navbar.scss';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from '../../assets/logo-tranparent.png';
+import { useLocation } from 'react-router-dom';
 
 function Navbar() {
 
     const [isOpen, setIsOpen] = useState(false);
+    const location = useLocation();
 
     const togglerHandler = () => {
         setIsOpen(!isOpen);
     };
+
+    useEffect(() => {
+        // Close the navbar whenever the location changes
+        setIsOpen(false);
+    }, [location]);
 
     return( 
         <>   

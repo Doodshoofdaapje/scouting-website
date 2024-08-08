@@ -19,9 +19,9 @@ import Infographic from './components/infographic/Infographic.jsx';
 function App() {
   return (
     <>
-      <Navbar/>
-
       <Router>
+        <Navbar/>
+
         <Routes>
           <Route path="/" element={<HomePage/>}/>
           <Route path="/infographic" element={<Infographic/>}/>

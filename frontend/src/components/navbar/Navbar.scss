@@ -88,9 +88,11 @@ $navbar-height: 60px;
 }
 
 .collapse-content {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px 200px 0px 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap:50px;
+
+    padding: 0px 5% 0px 10%;
 
     font-size: 1em;
     background-color: white;
@@ -100,8 +102,7 @@ $navbar-height: 60px;
     transition: max-height 0.5s ease, padding 0.5s ease;
 
     ul {
-        margin-left: auto;
-        margin-right: auto;
+        padding:0;
         list-style: none;
     }
 
@@ -122,7 +123,7 @@ $navbar-height: 60px;
 
 .collapse-content.open {
     max-height: 3000px;
-    padding: 80px 200px 10px 100px;
+    padding: 80px 5% 10px 10%;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
