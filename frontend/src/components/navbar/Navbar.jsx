@@ -43,13 +43,14 @@ function Navbar() {
             <div className={`collapse-content ${isOpen ? 'open' : ''}`}>
                 <ul> 
                     <p>Groep</p>
-                    <li>Infographic ASG</li>
+                    <a href='#/infographic'> <li>Infographic ASG</li> </a>
                     <a href='#/naam'> <li>Naam ASG</li> </a>
                     <li>Geschiedenis ASG</li>
                     <a href='#/speltakken'> <li>Speltakken</li> </a>
                     <a href='#/uniform'> <li>Uniform</li> </a>
                     <a href='#/lidmaatschap'> <li>Lidmaatschap</li> </a>
-                    <li>Groepsbestuur</li>
+                    <a href='#/groepsbestuur'><li>Groepsbestuur</li> </a>
+                    <li>Groepsdag</li>
                 </ul>
                 <ul>
                     <p>Scouting</p>

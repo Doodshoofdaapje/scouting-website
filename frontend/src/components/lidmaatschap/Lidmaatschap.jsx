@@ -14,7 +14,7 @@ function Lidmaatschap() {
             <div className='page-header'>
                 <div>
                     <p>
-                    Bij ASG beleef je avontuur en vriendschap op een unieke manier! Onze scouts dan van alles, van kamperen tot pionieren en leuke spellen. Kom en ontdek wat je 
+                    Bij ASG beleef je avontuur en vriendschap op een unieke manier! Onze scouts doen van alles, van kamperen tot pionieren en leuke spellen. Kom en ontdek wat je 
                     allemaal kunt meemaken!
                     </p>
                     <img src={imgLogo}/>
@@ -92,10 +92,10 @@ function Lidmaatschap() {
                 </p>
 
                 <p>
-                Voor meer informatie, verwijzen wij u naar <a href='www.jeugdsportfonds.nl'> www.jeugdsportfonds.nl </a>
+                Voor meer informatie, verwijzen wij u naar <a href='http://www.jeugdsportfonds.nl/'> www.jeugdsportfonds.nl </a>
                 Ook Scouting Albert Schweitzer Groep is bereid tot verdere uitleg omtrent deze vernieuwde procedure.
                 Voor meer informatie omtrent de aanvraag van een Breda Pas en/of het declareren van de kosten van het kampgeld verwijzen 
-                wij u naar <a href='www.breda.nl'> www.breda.nl </a>
+                wij u naar <a href='https://www.breda.nl/'> www.breda.nl </a>
                 </p>
             </div>
 

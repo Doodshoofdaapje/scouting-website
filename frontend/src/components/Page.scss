@@ -106,7 +106,7 @@
     gap:50px;
 
     a {
-        padding: 40px 0px;    
+        padding: 40px 40px;    
         border: 1px dashed $background-green;
         //box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     }
@@ -117,7 +117,7 @@
     }
 
     img {
-        height: 250px;
+        max-height: 250px;
         max-width: 100%;
     }
 

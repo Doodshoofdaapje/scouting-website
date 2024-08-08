@@ -13,6 +13,8 @@ import Pivos from './components/asg_speltakken/Pivos.jsx';
 import Senioren from './components/asg_speltakken/Senioren.jsx';
 import Uniform from './components/uniform/Uniform.jsx';
 import Lidmaatschap from './components/lidmaatschap/Lidmaatschap.jsx';
+import Groepsbestuur from './components/groepsbestuur/Groepsbestuur.jsx';
+import Infographic from './components/infographic/Infographic.jsx';
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage/>}/>
+          <Route path="/infographic" element={<Infographic/>}/>
           <Route path="/naam" element={<ASG_Name/>}/>
           <Route path="/speltakken" element={<ASG_Speltakken/>}/>
           <Route path="/speltakken/bevers" element={<Bevers/>}/>
@@ -32,6 +35,7 @@ function App() {
           <Route path="/speltakken/senioren" element={<Senioren/>}/>
           <Route path="/uniform" element={<Uniform/>}/>
           <Route path="/lidmaatschap" element={<Lidmaatschap/>}/>
+          <Route path="/groepsbestuur" element={<Groepsbestuur/>}/>
         </Routes>
       </Router>
 
