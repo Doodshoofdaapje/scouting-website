@@ -3,18 +3,21 @@ import Navbar from './components/navbar/Navbar';
 import HomePage from './components/homepage/Homepage';
 import Footer from './components/footer/Footer';
 import {Route, HashRouter as Router, Routes} from 'react-router-dom'
-import ASG_Name from './components/asg_name/ASG_Name';
-import ASG_Speltakken from './components/asg_speltakken/ASG_Speltakken';
-import Bevers from './components/asg_speltakken/Bevers';
-import Welpen from './components/asg_speltakken/Welpen';
-import Scouts from './components/asg_speltakken/Scouts';
-import RSA from './components/asg_speltakken/RSA';
-import Pivos from './components/asg_speltakken/Pivos.jsx';
-import Senioren from './components/asg_speltakken/Senioren.jsx';
-import Uniform from './components/uniform/Uniform.jsx';
-import Lidmaatschap from './components/lidmaatschap/Lidmaatschap.jsx';
-import Groepsbestuur from './components/groepsbestuur/Groepsbestuur.jsx';
-import Infographic from './components/infographic/Infographic.jsx';
+import ASG_Name from './components/groep/ASGName.jsx';
+import ASG_Speltakken from './components/groep/asg_speltakken/ASG_Speltakken.jsx';
+import Bevers from './components/groep/asg_speltakken/Bevers.jsx';
+import Welpen from './components/groep/asg_speltakken/Welpen.jsx';
+import Scouts from './components/groep/asg_speltakken/Scouts.jsx';
+import RSA from './components/groep/asg_speltakken/RSA.jsx';
+import Pivos from './components/groep/asg_speltakken/Pivos.jsx';
+import Senioren from './components/groep/asg_speltakken/Senioren.jsx';
+import Uniform from './components/groep/Uniform.jsx';
+import Lidmaatschap from './components/groep/Lidmaatschap.jsx';
+import Groepsbestuur from './components/groep/Groepsbestuur.jsx';
+import Infographic from './components/groep/Infographic.jsx';
+import OntdekScouting from './components/scouting/OntdekScouting.jsx';
+import ScoutingNederland from './components/scouting/ScoutingNederland.jsx';
+import GebouwInformatie from './components/gebouw/informatie.jsx';
 
 function App() {
   return (
@@ -36,6 +39,9 @@ function App() {
           <Route path="/uniform" element={<Uniform/>}/>
           <Route path="/lidmaatschap" element={<Lidmaatschap/>}/>
           <Route path="/groepsbestuur" element={<Groepsbestuur/>}/>
+          <Route path="/ontdekscouting" element={<OntdekScouting/>}/>
+          <Route path="/scoutingnederland" element={<ScoutingNederland/>}/>
+          <Route path="/gebouwinformatie" element={<GebouwInformatie/>}/>
         </Routes>
       </Router>
 

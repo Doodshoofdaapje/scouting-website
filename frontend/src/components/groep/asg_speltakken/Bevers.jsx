@@ -1,6 +1,6 @@
-import '../Page.scss';
-import imgBevers from '../../assets/asg_speltakken/bevers.jpg';
-import imgPhylax from '../../assets/asg_speltakken/phylax.jpg';
+import '../../Page.scss';
+import imgBevers from '../../../assets/asg_speltakken/bevers.jpg';
+import imgPhylax from '../../../assets/asg_speltakken/phylax.jpg';
 
 function Bevers() {
     return (

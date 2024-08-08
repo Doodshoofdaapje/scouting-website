@@ -1,6 +1,6 @@
-import '../Page.scss';
-import imgRSA from '../../assets/asg_speltakken/rsa.jpg';
-import imgSpeltak from '../../assets/asg_speltakken/rsaspeltak.jpg';
+import '../../Page.scss';
+import imgRSA from '../../../assets/asg_speltakken/rsa.jpg';
+import imgSpeltak from '../../../assets/asg_speltakken/rsaspeltak.jpg';
 
 function RSA() {
     return (

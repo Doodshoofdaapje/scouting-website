@@ -1,11 +1,11 @@
-import imgBevers from '../../assets/asg_speltakken/bevers.jpg';
-import imgWelpen from '../../assets/asg_speltakken/welpen.jpg';
-import imgScouts from '../../assets/asg_speltakken/scouts.jpg';
-import imgRSA from '../../assets/asg_speltakken/rsa.jpg';
-import imgPivos from '../../assets/asg_speltakken/pivos.jpg';
-import imgSenioren from '../../assets/asg_speltakken/senioren.png';
-import imgFlags from '../../assets/asg_speltakken/vlaggen.jpg';
-import '../Page.scss';
+import imgBevers from '../../../assets/asg_speltakken/bevers.jpg';
+import imgWelpen from '../../../assets/asg_speltakken/welpen.jpg';
+import imgScouts from '../../../assets/asg_speltakken/scouts.jpg';
+import imgRSA from '../../../assets/asg_speltakken/rsa.jpg';
+import imgPivos from '../../../assets/asg_speltakken/pivos.jpg';
+import imgSenioren from '../../../assets/asg_speltakken/senioren.png';
+import imgFlags from '../../../assets/asg_speltakken/vlaggen.jpg';
+import '../../Page.scss';
 
 function ASG_Speltakken() {
 

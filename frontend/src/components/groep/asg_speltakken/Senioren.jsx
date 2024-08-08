@@ -1,6 +1,6 @@
-import '../Page.scss';
-import imgSenioren from '../../assets/asg_speltakken/senioren.png';
-import imgSpeltak from '../../assets/asg_speltakken/tamtam.jpg';
+import '../../Page.scss';
+import imgSenioren from '../../../assets/asg_speltakken/senioren.png';
+import imgSpeltak from '../../../assets/asg_speltakken/tamtam.jpg';
 
 function Senioren() {
     return (

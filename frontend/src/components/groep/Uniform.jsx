@@ -42,12 +42,10 @@ function Uniform() {
             </div>
 
             <div className='image-gallery'>
-                <div></div>
                 <div>
                     <img src={imgBanner}/>
                     <hr/>
                 </div>
-                <div></div>
             </div>
         </div>
 

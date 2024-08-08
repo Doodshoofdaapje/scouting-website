@@ -61,14 +61,13 @@ function Navbar() {
                 </ul>
                 <ul>
                     <p>Scouting</p>
-                    <li>Ontdek Scouting</li>
-                    <li>Scouting Nederland</li>
-                    <li>Regio de Baronie</li>
+                    <a href='#/ontdekscouting'> <li>Ontdek Scouting</li> </a>
+                    <a href='#/scoutingnederland'> <li>Scouting Nederland</li> </a>
                 </ul>
 
                 <ul> 
                     <p>Gebouw</p>
-                    <li>Informatie</li>
+                    <a href='#/gebouwinformatie'><li>Informatie</li></a>
                     <li>Ligging</li>
                     <li>Openbaar vervoer</li>
                     <li>Omgeving</li>

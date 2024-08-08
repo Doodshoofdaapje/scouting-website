@@ -1,6 +1,6 @@
-import '../Page.scss';
-import imgPivos from '../../assets/asg_speltakken/pivos.jpg';
-import imgSpeltak from '../../assets/asg_speltakken/roverscouts.jpg';
+import '../../Page.scss';
+import imgPivos from '../../../assets/asg_speltakken/pivos.jpg';
+import imgSpeltak from '../../../assets/asg_speltakken/roverscouts.jpg';
 
 function Pivos() {
     return (
