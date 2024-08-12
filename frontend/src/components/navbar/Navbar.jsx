@@ -68,11 +68,11 @@ function Navbar() {
                 <ul> 
                     <p>Gebouw</p>
                     <a href='#/gebouwinformatie'><li>Informatie</li></a>
-                    <li>Ligging</li>
-                    <li>Openbaar vervoer</li>
-                    <li>Omgeving</li>
-                    <li>Geschiedenis</li>
-                    <li>Sponsoren</li>
+                    <a href='#/ligging'><li>Ligging</li></a>
+                    <a href='#/openbaarvervoer'><li>Openbaar vervoer</li></a>
+                    <a href='#/omgeving'><li>Omgeving</li></a>
+                    <a href='#/stichting'><li>Stichting</li></a>
+                    <a href='#/sponsoren'><li>Sponsoren</li></a>
                 </ul>
 
                 <ul> 

@@ -18,6 +18,11 @@ import Infographic from './components/groep/Infographic.jsx';
 import OntdekScouting from './components/scouting/OntdekScouting.jsx';
 import ScoutingNederland from './components/scouting/ScoutingNederland.jsx';
 import GebouwInformatie from './components/gebouw/informatie.jsx';
+import Ligging from './components/gebouw/ligging.jsx';
+import OpenbaarVervoer from './components/gebouw/ov.jsx';
+import Omgeving from './components/gebouw/omgeving.jsx';
+import Stichting from './components/gebouw/stichting.jsx';
+import Sponsoren from './components/gebouw/sponsoren.jsx';
 
 function App() {
   return (
@@ -42,6 +47,11 @@ function App() {
           <Route path="/ontdekscouting" element={<OntdekScouting/>}/>
           <Route path="/scoutingnederland" element={<ScoutingNederland/>}/>
           <Route path="/gebouwinformatie" element={<GebouwInformatie/>}/>
+          <Route path="/ligging" element={<Ligging/>}/>
+          <Route path="/openbaarvervoer" element={<OpenbaarVervoer/>}/>
+          <Route path="/omgeving" element={<Omgeving/>}/>
+          <Route path="/stichting" element={<Stichting/>}/>
+          <Route path="/sponsoren" element={<Sponsoren/>}/>
         </Routes>
       </Router>
 

@@ -132,7 +132,7 @@
         max-height: 250px;
         max-width: 100%;
     }
-
+    
     hr {
         height: 4px;
         margin: 10px 30px;
@@ -145,6 +145,7 @@
     }
 }
 
+// Phone styling
 @media screen and (max-width: 750px) {
     .page-header {
         div {
@@ -157,5 +158,11 @@
 
         }
         
+    }
+
+    .page-content {
+        p {
+            padding: 0;
+        }
     }
 }
