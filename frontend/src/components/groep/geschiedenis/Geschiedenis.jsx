@@ -1,14 +1,22 @@
 import '../../Page.scss';
-import GeschiedenisPost from './GeschiedenisPost';
 import React, { useEffect, useState } from 'react';
-import listReactFiles from 'list-react-files'
 
 function Geschiedenis() {
-    const [files, setFiles] = useState([])
+    const [posts, setPosts] = useState([]);
 
-    useEffect(()=> {
-        listReactFiles('src/components/groep/geschiedenis/posts').then(files => console.log(files))
-    }, []) 
+    useEffect(() => {
+        const fetchPosts = async () => {
+        const response = await fetch(`./geschiedenis.json`);
+
+        if (response.ok) {
+            let content = await response.json();
+            setPosts(content);
+        } else {
+            console.error("File not found")
+        }
+        }
+        fetchPosts(); 
+    }, [])
 
     return(
         <>
@@ -31,9 +39,10 @@ function Geschiedenis() {
             
             <div className='page-content'>
             <ul>
-                {files.map(file => (
-                <li key={file}>{file}</li>
-                ))}
+                {posts.map((post) => (
+                    <li key={post.id}><a href={`#/geschiedenis/${post.id}`}>{post.title}</a></li>
+                    ))
+                }
             </ul>
             </div>
 

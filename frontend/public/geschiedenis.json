@@ -1,0 +1,14 @@
+[
+    {
+        "id":"0",
+        "title":"1966 Oprichting",
+        "text":"Als de Albert Schweitzer GROEP in april 1966 wordt opgericht om in Breda-Noord, met inbegrip van de St. Jozefparochie, het spel van verkennen gestalte te geven, beschikt de groep over het toenmalige hoofdkwartier van de Sint Jozefgroep.",
+        "image": "./assets/denkboek.jpg"
+    },
+    {
+        "id":"1",
+        "title":"1970 Aanbouw",
+        "text":"Op 3 juni 1969 besluit het college van Burgemeester en Wethouders van Breda dat de ASG voor het symbolische bedrag van 50 gulden het gebouw van St Fidelis aan de Nieuwe Huizen mag kopen. Voorwaarde is dat het door de groep zelf wordt afgebroken en dat alle materialen worden vervoerd naar de Frankenthalerstraat om daar te worden gebruikt voor de uitbreiding van het troepenhuis.",
+        "image": "./assets/aanbouw1.jpg"
+    }
+]

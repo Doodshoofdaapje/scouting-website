@@ -1,29 +1,30 @@
 // src/components/Post.js
 import React, { useEffect, useState } from 'react';
-import ReactMarkdown from 'react-markdown';
+import { useParams } from 'react-router-dom';
 
-function GeschiedenisPost({ postPath }) {
-  const [content, setContent] = useState('');
+function GeschiedenisPost({ data }) {
+  const [post, setPost] = useState([]);
+  const { id } = useParams();
 
   useEffect(() => {
-    const fetchMd = async () => {
-      const response = await fetch(`./geschiedenis/${postPath}.md`);
+    const fetchPosts = async () => {
+      const response = await fetch(`./geschiedenis.json`);
 
-      if (!response.ok) {
-        console.log("eeeeeeeeeee")
-        setContent("Bestand niet gevonden")
+      if (response.ok) {
+          let content = await response.json();
+          setPost(content[id]);
       } else {
-        let mdContent = await response.text();
-        setContent(mdContent);
+          console.error("File not found")
       }
-      
     }
-    fetchMd(); 
-	}, [])
+    fetchPosts(); 
+}, [])
 
   return (
     <>
-      <ReactMarkdown>{content}</ReactMarkdown>
+    <p>{post.title}</p>
+    <p>{post.text}</p>
+    <img src={post.image}/>
     </>
   );
 };
