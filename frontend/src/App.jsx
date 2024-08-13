@@ -23,6 +23,7 @@ import OpenbaarVervoer from './components/gebouw/ov.jsx';
 import Omgeving from './components/gebouw/omgeving.jsx';
 import Stichting from './components/gebouw/stichting.jsx';
 import Sponsoren from './components/gebouw/sponsoren.jsx';
+import Geschiedenis from './components/groep/geschiedenis/Geschiedenis.jsx';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           <Route path="/omgeving" element={<Omgeving/>}/>
           <Route path="/stichting" element={<Stichting/>}/>
           <Route path="/sponsoren" element={<Sponsoren/>}/>
+          <Route path="/geschiedenis" element={<Geschiedenis/>}/>
         </Routes>
       </Router>
 

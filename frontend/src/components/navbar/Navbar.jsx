@@ -52,7 +52,7 @@ function Navbar() {
                     <p>Groep</p>
                     <a href='#/infographic'> <li>Infographic ASG</li> </a>
                     <a href='#/naam'> <li>Naam ASG</li> </a>
-                    <li>Geschiedenis ASG</li>
+                    <a href='#/geschiedenis'><li>Geschiedenis ASG</li></a>
                     <a href='#/speltakken'> <li>Speltakken</li> </a>
                     <a href='#/uniform'> <li>Uniform</li> </a>
                     <a href='#/lidmaatschap'> <li>Lidmaatschap</li> </a>
