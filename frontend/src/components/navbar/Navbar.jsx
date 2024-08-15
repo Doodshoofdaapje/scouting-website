@@ -34,7 +34,7 @@ function Navbar() {
                             <a className ="nav-link" href="#">Onze groep</a>
                         </li>
                         <li className="nav-item">
-                            <a className ="nav-link" href="#">Verhuur</a>
+                            <a className ="nav-link" href="#/verhuur">Verhuur</a>
                         </li>
                         <li className="nav-item">
                             <a className ="nav-link" href="#">Contact</a>
@@ -76,25 +76,18 @@ function Navbar() {
                 </ul>
 
                 <ul> 
-                    <p>Verhuur</p>
-                    <li>Reglement</li>
-                    <li>Kosten</li>
-                    <li>Beschikbaarheid</li>
-                    <li>Aanvraag</li>
-                </ul>
-
-                <ul> 
                     <p>Beunploeg</p>
-                    <li>Onderhoud</li>
-                    <li>Groen</li>
+                    <a href="#/beunploeg"><li>Informatie</li></a>
+                    <a href="#/onderhoud"><li>Onderhoud</li></a>
+                    <a href="#/groen"><li>Groen</li></a>
                     <li>Historie</li>
                     <li>Beunkeurmerk</li>
                     <li>Mollenteller</li>
-                    <li>Melden</li>
                     <li>Meedoen</li>
                 </ul>
                 <ul> 
                     <p>Overig</p>
+                    <a href="#/verhuur"><li>Verhuur</li></a>
                     <li>Nieuws</li>
                     <li>Contact</li>
                     <li>Privacy</li>

@@ -12,7 +12,7 @@ function Information() {
                         Laat je uitdagen en ontdek Scouting! Al vanaf 5 jaar is er bij Scouting heel veel te beleven. 
                         Hoe ouder je bent, hoe groter en uitdagender het avontuur!
                     </p>
-                    <a>
+                    <a href="#/lidmaatschap">
                         Lees meer
                     </a>     
                 </div>
@@ -27,7 +27,7 @@ function Information() {
                         Een weekend weg met een vereniging? Kom langs bij ASG! We bieden lage prijzen met bereik tot alles 
                         wat Breda te bieden heeft.
                     </p>
-                    <a>
+                    <a href="#/verhuur">
                         Lees meer
                     </a>
                 </div>

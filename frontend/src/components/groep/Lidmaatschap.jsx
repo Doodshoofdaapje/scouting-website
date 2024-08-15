@@ -34,7 +34,9 @@ function Lidmaatschap() {
                 te worden ingevuld.
                 </p>
 
-                <button> Download inschrijf formulier </button>
+                <div className='download object-array'>
+                    <a href="ASG_inschrijfformulier.docx" download> <button> Download inschrijf formulier </button> </a>
+                </div>
 
                 <p>
                 Nadat een nieuw lid enkele maanden heeft meegedraaid met het onderdeel maakt de leiding een afspraak met de ouders voor een kennismakingsgesprek.
@@ -123,7 +125,10 @@ function Lidmaatschap() {
                 Bij het lid worden van een groep, regio of de landelijke organisatie, vragen we je kennis te nemen van het Huishoudelijk Reglement.
                 </p>
 
-                <button> Download huishoudelijk reglement </button>
+                <div className='download object-array'>
+                    <button> Download huishoudelijk reglement </button>
+                </div>
+                
             </div>
         </div>
 

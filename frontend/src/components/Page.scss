@@ -4,7 +4,6 @@
 .page-header {
     display: flex;
 
-
     background-color: $background-green;
     color: white;
 
@@ -54,7 +53,7 @@
 }
 
 .page-content {
-    margin: 20px 50px 80px 50px;
+    margin: 20px 50px 40px 50px;
 
     p{
         padding: 20px 0px;
@@ -77,15 +76,24 @@
         color:purple;
         cursor: pointer;
     }
+}
+
+.download {
+    a {
+        color:$text-color-green;
+        text-decoration: none;
+    }
 
     button{
         display: block;
-        padding: 15px 25px 15px 25px;
+        padding: 25px 25px 25px 25px;
         border:none;
         border-radius: 15px;
 
         background-color: $background-green;
         color: white;
+        font-weight: bold;
+        font-size: 1rem;
         text-align: center;
     }
     
@@ -143,6 +151,16 @@
     div {
         text-align: center;
     }
+}
+
+.object-array {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    div {
+        margin: 25px 5%;
+    }
+    
 }
 
 // Phone styling

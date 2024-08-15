@@ -25,6 +25,10 @@ import Stichting from './components/gebouw/stichting.jsx';
 import Sponsoren from './components/gebouw/sponsoren.jsx';
 import Geschiedenis from './components/groep/geschiedenis/Geschiedenis.jsx';
 import GeschiedenisPost from './components/groep/geschiedenis/GeschiedenisPost.jsx';
+import Verhuur from './components/verhuur/Verhuur.jsx';
+import Beunloeg from './components/beunploeg/Beunploeg.jsx';
+import Onderhoud from './components/beunploeg/Onderhoud.jsx';
+import Groen from './components/beunploeg/Groen.jsx';
 
 function App() {
   return (
@@ -56,6 +60,10 @@ function App() {
           <Route path="/sponsoren" element={<Sponsoren/>}/>
           <Route path="/geschiedenis" element={<Geschiedenis/>}/>
           <Route path="/geschiedenis/:id" element={<GeschiedenisPost />} />
+          <Route path="/verhuur" element={<Verhuur />} />
+          <Route path="/beunploeg" element={<Beunloeg />} />
+          <Route path="/onderhoud" element={<Onderhoud />} />
+          <Route path="/groen" element={<Groen />} />
         </Routes>
       </Router>
 
