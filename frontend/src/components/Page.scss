@@ -124,6 +124,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap:50px;
+    margin:50px 0px;
 
     a {
         padding: 20px 20px;    
@@ -177,10 +178,7 @@
         }
         
     }
-
     .page-content {
-        p {
-            padding: 0;
-        }
+        margin: 20px 0px 40px 0px;
     }
 }

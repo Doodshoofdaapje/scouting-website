@@ -29,6 +29,9 @@ import Verhuur from './components/verhuur/Verhuur.jsx';
 import Beunloeg from './components/beunploeg/Beunploeg.jsx';
 import Onderhoud from './components/beunploeg/Onderhoud.jsx';
 import Groen from './components/beunploeg/Groen.jsx';
+import Historie from './components/beunploeg/Historie.jsx';
+import Beunkeurmerk from './components/beunploeg/Beunkernmerk.jsx';
+import Mollenteller from './components/beunploeg/Mollenteller.jsx';
 
 function App() {
   return (
@@ -64,6 +67,9 @@ function App() {
           <Route path="/beunploeg" element={<Beunloeg />} />
           <Route path="/onderhoud" element={<Onderhoud />} />
           <Route path="/groen" element={<Groen />} />
+          <Route path="/historie" element={<Historie />} />
+          <Route path="/beunkenmerk" element={<Beunkeurmerk />} />
+          <Route path="/mollenteller" element={<Mollenteller />} />
         </Routes>
       </Router>
 

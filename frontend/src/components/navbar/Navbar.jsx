@@ -80,10 +80,9 @@ function Navbar() {
                     <a href="#/beunploeg"><li>Informatie</li></a>
                     <a href="#/onderhoud"><li>Onderhoud</li></a>
                     <a href="#/groen"><li>Groen</li></a>
-                    <li>Historie</li>
-                    <li>Beunkeurmerk</li>
-                    <li>Mollenteller</li>
-                    <li>Meedoen</li>
+                    <a href="#/historie"><li>Historie</li></a>
+                    <a href="#/beunkenmerk"><li>Beunkeurmerk</li></a>
+                    <a href="#/mollenteller"><li>Mollenteller</li></a>
                 </ul>
                 <ul> 
                     <p>Overig</p>
