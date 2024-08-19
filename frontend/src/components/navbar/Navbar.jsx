@@ -89,8 +89,8 @@ function Navbar() {
                     <a href="#/verhuur"><li>Verhuur</li></a>
                     <li>Nieuws</li>
                     <a href="#/contact"><li>Contact</li></a>
-                    <li>Privacy</li>
-                    <li>Veiligheid</li>
+                    <a href="#/privacy"><li>Privacy</li></a>
+                    <a href="#/veiligheid"><li>Veiligheid</li></a>
                     <li>Formulieren</li>
                 </ul>
             </div>

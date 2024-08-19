@@ -25,7 +25,7 @@ import Stichting from './components/gebouw/stichting.jsx';
 import Sponsoren from './components/gebouw/sponsoren.jsx';
 import Geschiedenis from './components/groep/geschiedenis/Geschiedenis.jsx';
 import GeschiedenisPost from './components/groep/geschiedenis/GeschiedenisPost.jsx';
-import Verhuur from './components/verhuur/Verhuur.jsx';
+import Verhuur from './components/overig/Verhuur.jsx';
 import Beunloeg from './components/beunploeg/Beunploeg.jsx';
 import Onderhoud from './components/beunploeg/Onderhoud.jsx';
 import Groen from './components/beunploeg/Groen.jsx';
@@ -33,6 +33,8 @@ import Historie from './components/beunploeg/Historie.jsx';
 import Beunkeurmerk from './components/beunploeg/Beunkernmerk.jsx';
 import Mollenteller from './components/beunploeg/Mollenteller.jsx';
 import Contact from './components/overig/Contact.jsx';
+import Privacy from './components/overig/Privacy.jsx';
+import Veiligheid from './components/overig/Veiligheid.jsx';
 
 function App() {
   return (
@@ -72,6 +74,8 @@ function App() {
           <Route path="/beunkenmerk" element={<Beunkeurmerk />} />
           <Route path="/mollenteller" element={<Mollenteller />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/veiligheid" element={<Veiligheid />} />
         </Routes>
       </Router>
 

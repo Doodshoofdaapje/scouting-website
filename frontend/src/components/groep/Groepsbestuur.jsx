@@ -32,7 +32,7 @@ function Groepsbestuur() {
                     Tijdens draaitijden zijn uiteraard de stafleden van het onderdeel verantwoordelijk voor de kinderen; 
                     maar voor en na deze tijd ligt de verantwoording bij de ouders/ verzorgers. 
                     Maak daarom goede afspraken met uw kinderen over eventueel halen en brengen! Contact gegevens van de bestuursleden, leiders of begeleiders zijn te 
-                    vinden onder <a>contact</a>.
+                    vinden onder <a href="#/contact">contact</a>.
                 </p>
             </div>
 

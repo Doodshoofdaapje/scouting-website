@@ -60,14 +60,14 @@ function Verhuur() {
   
             </div>
 
-                <div className='object-array'>
-                    <div className='download'>
-                        <a href="Reglement_Verhuur_ASG.pdf" download> <button> Download huur reglement </button> </a>
-                    </div>
-                    <div className='download'>
-                        <a href="Aanvraag_huur_scoutinggebouw_ASG_Breda.docx" download> <button> Download aanvraag formulier </button> </a>    
-                    </div>
+            <div className='object-array'>
+                <div className='download'>
+                    <a href="Reglement_Verhuur_ASG.pdf" download> <button> Download huur reglement </button> </a>
                 </div>
+                <div className='download'>
+                    <a href="Aanvraag_huur_scoutinggebouw_ASG_Breda.docx" download> <button> Download aanvraag formulier </button> </a>    
+                </div>
+            </div>
             
             <div className='page-content'>
                 <p>
