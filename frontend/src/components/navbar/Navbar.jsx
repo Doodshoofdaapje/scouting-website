@@ -37,7 +37,7 @@ function Navbar() {
                             <a className ="nav-link" href="#/verhuur">Verhuur</a>
                         </li>
                         <li className="nav-item">
-                            <a className ="nav-link" href="#">Contact</a>
+                            <a className ="nav-link" href="#/contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -88,7 +88,7 @@ function Navbar() {
                     <p>Overig</p>
                     <a href="#/verhuur"><li>Verhuur</li></a>
                     <li>Nieuws</li>
-                    <li>Contact</li>
+                    <a href="#/contact"><li>Contact</li></a>
                     <li>Privacy</li>
                     <li>Veiligheid</li>
                     <li>Formulieren</li>

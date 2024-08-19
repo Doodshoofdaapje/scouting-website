@@ -32,6 +32,7 @@ import Groen from './components/beunploeg/Groen.jsx';
 import Historie from './components/beunploeg/Historie.jsx';
 import Beunkeurmerk from './components/beunploeg/Beunkernmerk.jsx';
 import Mollenteller from './components/beunploeg/Mollenteller.jsx';
+import Contact from './components/overig/Contact.jsx';
 
 function App() {
   return (
@@ -70,6 +71,7 @@ function App() {
           <Route path="/historie" element={<Historie />} />
           <Route path="/beunkenmerk" element={<Beunkeurmerk />} />
           <Route path="/mollenteller" element={<Mollenteller />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
 
