@@ -14,7 +14,7 @@ function ZoomableImage({src}) {
                 <img onClick={onClickHandler} src={src} />
             </div>
 
-            <div className='scaled-image'>
+            <div className='scaled-image' onClick={onClickHandler}>
                 <img src={src} />
             </div>
 
