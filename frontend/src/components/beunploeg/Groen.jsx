@@ -15,6 +15,7 @@ import imgGroen13 from '../../assets/groen/groen13.jpg';
 import imgGroen14 from '../../assets/groen/groen14.jpg';
 import imgGroen15 from '../../assets/groen/groen15.jfif';
 import imgGroen16 from '../../assets/groen/groen16.jfif';
+import ZoomableImage from '../zoomable_image/ZoomableImage';
 
 
 function Groen() {
@@ -49,7 +50,7 @@ function Groen() {
 
                 {imgGroenArray.map((source)=> (
                     <div>
-                        <img src={source}/>
+                        <ZoomableImage src={source}/>
                     <hr/>
                 </div> 
                 ))}

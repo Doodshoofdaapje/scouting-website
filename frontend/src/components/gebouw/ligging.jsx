@@ -6,6 +6,7 @@ import imgSateliet2 from '../../assets/gebouw_ligging/sateliet2.jpg';
 import imgSateliet3 from '../../assets/gebouw_ligging/sateliet3.png';
 import imgBreda from '../../assets/gebouw_ligging/breda samen.jpg';
 import imgLogo from '../../assets/lidmaatschap/logo.jpg';
+import ZoomableImage from '../zoomable_image/ZoomableImage';
 
 function Ligging() {
 
@@ -39,10 +40,10 @@ function Ligging() {
 
             <div className='image-gallery'>
                 <div>
-                    <img src={imgLiggingASG}/>
+                    <ZoomableImage src={imgLiggingASG}/>
                 </div>
                 <div>
-                    <img src={imgLiggingBreda}/>
+                    <ZoomableImage src={imgLiggingBreda}/>
                 </div>
             </div>
 
@@ -58,15 +59,15 @@ function Ligging() {
 
             <div className='image-gallery'>
                 <div>
-                    <img src={imgSateliet1}/>
+                    <ZoomableImage src={imgSateliet1}/>
                     <hr/>
                 </div>
                 <div>
-                    <img src={imgSateliet2}/>
+                    <ZoomableImage src={imgSateliet2}/>
                     <hr/>
                 </div>
                 <div>
-                    <img src={imgSateliet3}/>
+                    <ZoomableImage src={imgSateliet3}/>
                     <hr/>
                 </div>           
             </div>

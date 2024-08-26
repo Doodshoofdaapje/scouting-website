@@ -20,6 +20,7 @@ import img2019 from '../../assets/beunkenmerk/2019.jpg';
 import img2020 from '../../assets/beunkenmerk/2020.jpg';
 import img2021 from '../../assets/beunkenmerk/2021.jpg';
 import img2022 from '../../assets/beunkenmerk/2022.jpg';
+import ZoomableImage from '../zoomable_image/ZoomableImage';
 
 
 function Beunkeurmerk() {
@@ -51,7 +52,7 @@ function Beunkeurmerk() {
             <div className='image-gallery'>
                 {imageArray.map((source)=> (
                     <div key={source}>
-                        <img src={source}/>
+                        <ZoomableImage src={source}/>
                     </div>
                 ))}
             </div>

@@ -13,6 +13,7 @@ import imgGerrit from '../../assets/mollenteller/gerrit.jpg';
 import imgGras from '../../assets/mollenteller/gras.jpg';
 import imgDead from '../../assets/mollenteller/dodemol.jpg';
 import imgTrap from '../../assets/mollenteller/val.jpg';
+import ZoomableImage from '../zoomable_image/ZoomableImage';
 
 function Mollenteller() {
 
@@ -130,19 +131,19 @@ function Mollenteller() {
 
             <div className='image-gallery'>
                 <div>
-                    <img src={imgGerrit}/>
+                    <ZoomableImage src={imgGerrit}/>
                     <hr/>
                 </div>
                 <div>
-                    <img src={imgGras}/>
+                    <ZoomableImage src={imgGras}/>
                     <hr/>
                 </div>
                 <div>
-                    <img src={imgDead}/>
+                    <ZoomableImage src={imgDead}/>
                     <hr/>
                 </div>
                 <div>
-                    <img src={imgTrap}/>
+                    <ZoomableImage src={imgTrap}/>
                     <hr/>
                 </div>
             </div>

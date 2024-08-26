@@ -4,6 +4,7 @@ import imgBushalte1 from '../../assets/openbaar_vervoer/bushalte.jpg';
 import imgBushalte2 from '../../assets/openbaar_vervoer/bushalte2.jpg';
 import imgSateliet from '../../assets/openbaar_vervoer/sateliet.jpg';
 import imgNS from '../../assets/openbaar_vervoer/ns.png';
+import ZoomableImage from '../zoomable_image/ZoomableImage';
 
 function OpenbaarVervoer() {
 
@@ -42,15 +43,15 @@ function OpenbaarVervoer() {
 
             <div className='image-gallery'>
                 <div>
-                    <img src={imgStation}/>
+                    <ZoomableImage src={imgStation}/>
                     <hr/>
                 </div>
                 <div>
-                    <img src={imgBushalte1}/>
+                    <ZoomableImage src={imgBushalte1}/>
                     <hr/>
                 </div>
                 <div>
-                    <img src={imgBushalte2}/>
+                    <ZoomableImage src={imgBushalte2}/>
                     <hr/>
                 </div> 
             </div>

@@ -25,7 +25,7 @@ import Stichting from './components/gebouw/stichting.jsx';
 import Sponsoren from './components/gebouw/sponsoren.jsx';
 import Geschiedenis from './components/groep/geschiedenis/Geschiedenis.jsx';
 import GeschiedenisPost from './components/groep/geschiedenis/GeschiedenisPost.jsx';
-import Verhuur from './components/overig/Verhuur.jsx';
+import Verhuur from './components/overig/verhuur/Verhuur.jsx';
 import Beunloeg from './components/beunploeg/Beunploeg.jsx';
 import Onderhoud from './components/beunploeg/Onderhoud.jsx';
 import Groen from './components/beunploeg/Groen.jsx';
@@ -35,6 +35,8 @@ import Mollenteller from './components/beunploeg/Mollenteller.jsx';
 import Contact from './components/overig/Contact.jsx';
 import Privacy from './components/overig/Privacy.jsx';
 import Veiligheid from './components/overig/Veiligheid.jsx';
+import Groepsdag from './components/groep/groepsdag/Groepsdag.jsx';
+import GroepsdagPost from './components/groep/groepsdag/GroepsdagPost.jsx';
 
 function App() {
   return (
@@ -76,6 +78,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/veiligheid" element={<Veiligheid />} />
+          <Route path="/groepsdag" element={<Groepsdag/>}/>
+          <Route path="/groepsdag/:id" element={<GroepsdagPost />} />
         </Routes>
       </Router>
 

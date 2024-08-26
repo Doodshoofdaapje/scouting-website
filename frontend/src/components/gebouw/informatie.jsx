@@ -8,8 +8,11 @@ import imgPad from '../../assets/gebouw_informatie/pad.jpeg';
 import imgKuil from '../../assets/gebouw_informatie/theaterkuil.jpeg';
 import imgSketch from '../../assets/gebouw_informatie/sketch.jpg';
 import imgGebouw from '../../assets/gebouw_informatie/gebouw.jpeg';
+import ZoomableImage from '../zoomable_image/ZoomableImage';
 
 function GebouwInformatie() {
+
+    const images = [imgPad, imgOverzicht, imgGrasveld, imgGrasveld2, imgKuil, imgGebouw];
 
     return(
         <>
@@ -49,7 +52,7 @@ function GebouwInformatie() {
                 </p>
 
                 <div className='content-image'>
-                    <img src={imgPlattegrond}/>
+                    <ZoomableImage src={imgPlattegrond}/>
                 </div>
 
                 <ul>
@@ -68,30 +71,12 @@ function GebouwInformatie() {
             </div>
 
             <div className='image-gallery'>
-                <div>
-                    <img src={imgPad}/>
-                    <hr/>
-                </div>
-                <div>
-                    <img src={imgOverzicht}/>
-                    <hr/>
-                </div>
-                <div>
-                    <img src={imgGrasveld}/>
-                    <hr/>
-                </div>
-                <div>
-                    <img src={imgGrasveld2}/>
-                    <hr/>
-                </div>
-                <div>
-                    <img src={imgKuil}/>
-                    <hr/>
-                </div>
-                <div>
-                    <img src={imgGebouw}/>
-                    <hr/>
-                </div>
+                {images.map((source)=> (
+                    <div key={source}>
+                        <ZoomableImage src={source}/>
+                        <hr/>
+                    </div> 
+                ))}
                 
             </div>
         </div>

@@ -4,6 +4,7 @@ import imgSelfie from '../../assets/asg_name/albertschweitzer-selfie.jpg';
 import imgBoat from '../../assets/asg_name/albertschweitzer-boat.jpg';
 import imgStatue from '../../assets/asg_name/albertschweitzer-statue.jpg';
 import '../Page.scss';
+import ZoomableImage from '../zoomable_image/ZoomableImage';
 
 function ASG_Name() {
 
@@ -50,15 +51,15 @@ function ASG_Name() {
 
             <div className='image-gallery'>
                 <div>
-                    <img src={imgAfica}/>
+                    <ZoomableImage src={imgAfica}/>
                     <hr/>
                 </div>
                 <div>
-                    <img src={imgBoat}/>
+                    <ZoomableImage src={imgBoat}/>
                     <hr/>
                 </div>
                 <div>
-                    <img src={imgSelfie}/>
+                    <ZoomableImage src={imgSelfie}/>
                     <hr/>
                 </div>
                 

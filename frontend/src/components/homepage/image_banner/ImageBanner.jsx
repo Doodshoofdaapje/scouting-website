@@ -1,4 +1,5 @@
 import homeImage from '../../../assets/banner-placeholder.jpg';
+//import homeImage from '../../../assets/home_image_sharp.jpeg';
 import './ImageBanner.scss';
 
 function ImageBanner() {

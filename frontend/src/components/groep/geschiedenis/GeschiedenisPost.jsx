@@ -1,6 +1,7 @@
 import '../../Page.scss';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import ZoomableImage from '../../zoomable_image/ZoomableImage';
 
 function GeschiedenisPost({ data }) {
   const [post, setPost] = useState([]);
@@ -36,7 +37,7 @@ function GeschiedenisPost({ data }) {
           <div className='image-gallery'>
             {post.gallery?.map((image)=> (
               <div> 
-                <img src={image}/>
+                <ZoomableImage src={image}/>
                 <hr/>
               </div>
             ))}

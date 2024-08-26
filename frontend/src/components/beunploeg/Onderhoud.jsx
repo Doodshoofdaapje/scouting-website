@@ -30,6 +30,7 @@ import imgOnderhoud27 from '../../assets/onderhoud/onderhoud27.jpg';
 import imgOnderhoud28 from '../../assets/onderhoud/onderhoud28.jpg';
 import imgOnderhoud29 from '../../assets/onderhoud/onderhoud29.jpg';
 import imgOnderhoud30 from '../../assets/onderhoud/onderhoud30.jpg';
+import ZoomableImage from '../zoomable_image/ZoomableImage';
 
 
 function Onderhoud() {
@@ -77,9 +78,9 @@ function Onderhoud() {
 
                 {imgOnderhoudArray.map((source)=> (
                     <div>
-                        <img src={source}/>
-                    <hr/>
-                </div> 
+                        <ZoomableImage src={source}/>
+                        <hr/>
+                    </div> 
                 ))}
                     
             </div>

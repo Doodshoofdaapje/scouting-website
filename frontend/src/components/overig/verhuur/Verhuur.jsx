@@ -1,5 +1,6 @@
-import '../Page.scss';
-import imgLogo from '../../assets/lidmaatschap/logo.jpg';
+import '../../Page.scss';
+import imgLogo from '../../../assets/lidmaatschap/logo.jpg';
+import Calendar from './GoogleCalendar';
 
 function Verhuur() {
 
@@ -87,6 +88,13 @@ function Verhuur() {
                 geen poststukken of pakketten op dit adres !
                 </p>
 
+            </div>
+
+            <div className='content-header'>
+                <h1>
+                Beschikbaarheid
+                </h1>
+                <Calendar/>
             </div>
             
 
