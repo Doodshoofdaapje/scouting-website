@@ -37,6 +37,8 @@ import Privacy from './components/overig/Privacy.jsx';
 import Veiligheid from './components/overig/Veiligheid.jsx';
 import Groepsdag from './components/groep/groepsdag/Groepsdag.jsx';
 import GroepsdagPost from './components/groep/groepsdag/GroepsdagPost.jsx';
+import NewsPage from './components/overig/news/NewsPage.jsx';
+import NewsArticle from './components/overig/news/NewsArticle.jsx';
 
 function App() {
   return (
@@ -80,6 +82,8 @@ function App() {
           <Route path="/veiligheid" element={<Veiligheid />} />
           <Route path="/groepsdag" element={<Groepsdag/>}/>
           <Route path="/groepsdag/:id" element={<GroepsdagPost />} />
+          <Route path="/nieuws" element={<NewsPage/>}/>
+          <Route path="/nieuws/:id" element={<NewsArticle />} />
         </Routes>
       </Router>
 

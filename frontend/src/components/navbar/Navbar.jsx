@@ -31,7 +31,7 @@ function Navbar() {
                             <a className ="nav-link" href="#/lidmaatschap">Lid worden</a>
                         </li>
                         <li className="nav-item">
-                            <a className ="nav-link" href="#">Onze groep</a>
+                            <a className ="nav-link" href="#/nieuws">Nieuws</a>
                         </li>
                         <li className="nav-item">
                             <a className ="nav-link" href="#/verhuur">Verhuur</a>
@@ -87,7 +87,7 @@ function Navbar() {
                 <ul> 
                     <p>Overig</p>
                     <a href="#/verhuur"><li>Verhuur</li></a>
-                    <li>Nieuws</li>
+                    <a href="#/nieuws"><li>Nieuws</li></a>
                     <a href="#/contact"><li>Contact</li></a>
                     <a href="#/privacy"><li>Privacy</li></a>
                     <a href="#/veiligheid"><li>Veiligheid</li></a>
