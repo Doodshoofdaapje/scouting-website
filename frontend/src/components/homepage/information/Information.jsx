@@ -24,7 +24,7 @@ function Information() {
                 </div>
                 <div>
                     <p>
-                        Een weekend weg met een vereniging? Kom langs bij ASG! We bieden lage prijzen met bereik tot alles 
+                        Een weekend weg met een vereniging? Kom langs bij ASG! We een leuk gebouw met bereik tot alles 
                         wat Breda te bieden heeft.
                     </p>
                     <a href="#/verhuur">
