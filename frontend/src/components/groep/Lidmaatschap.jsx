@@ -35,7 +35,13 @@ function Lidmaatschap() {
                 </p>
 
                 <div className='download object-array'>
-                    <a href="ASG_inschrijfformulier.docx" download> <button> Download inschrijf formulier </button> </a>
+                    <div className='download'>
+                        <a href="ASG_inschrijfformulier.docx"> <button> Download inschrijf formulier </button> </a>
+                    </div>
+                    <div className='download'>
+                        <a href="https://www.rijksoverheid.nl/documenten/formulieren/2014/02/06/formulier-toestemming-reizen-met-minderjarige-naar-het-buitenland"> <button> Download toestemming formulier buitenland </button> </a>
+                    </div>
+                    
                 </div>
 
                 <p>

@@ -1,7 +1,19 @@
 @import '../../main.scss';
 
 .footer {
-    
     background-color: #00a551;
     max-width: 100%;
+    color:white;
+
+    .container {
+        padding: 5vh 10%;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    img {
+        margin-right: 20px;
+    }
 }

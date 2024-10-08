@@ -94,7 +94,6 @@ function Navbar() {
                         <a href="#/contact"><li>Contact</li></a>
                         <a href="#/privacy"><li>Privacy</li></a>
                         <a href="#/veiligheid"><li>Veiligheid</li></a>
-                        <li>Formulieren</li>
                     </ul>
                 </div>
             </div>
