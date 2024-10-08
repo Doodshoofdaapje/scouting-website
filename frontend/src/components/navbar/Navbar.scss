@@ -164,4 +164,9 @@ $navbar-height: 60px;
     .collapse-content.open {
         padding: 20px 10% 10px 40%;
     }
+
+    .navbar-logo img{
+        max-width: 120px;
+        max-height: 120px;
+    }
 }
