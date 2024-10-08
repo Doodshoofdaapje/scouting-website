@@ -48,9 +48,7 @@ function Navbar() {
                 </div>
             </nav>
             
-            <div className={`collapse-content ${isOpen ? 'open' : ''}`}>
-                
-                <div className='grid-content'>
+            <div className={`grid-content collapse-content ${isOpen ? 'open' : ''}`}>
                     <ul> 
                         <p>Groep</p>
                         <a href='#/infographic'> <li>Infographic ASG</li> </a>
@@ -96,7 +94,6 @@ function Navbar() {
                         <a href="#/veiligheid"><li>Veiligheid</li></a>
                     </ul>
                 </div>
-            </div>
         </div>
     );
 }

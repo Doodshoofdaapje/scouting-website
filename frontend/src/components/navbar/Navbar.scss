@@ -121,7 +121,8 @@ $navbar-height: 60px;
 
 .grid-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    will-change: grid-template-columns;
     gap:50px;
 
     font-size: 1em;
@@ -129,6 +130,10 @@ $navbar-height: 60px;
     ul {
         padding:0;
         list-style: none;
+    }
+
+    li {
+        width: 100%;
     }
 
     li:hover {
