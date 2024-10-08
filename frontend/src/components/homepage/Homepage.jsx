@@ -6,7 +6,7 @@ import '../Page.scss';
 
 function HomePage() {
     return (
-        <>
+        <div className='homepage'>
             <ImageBanner/>
             <div className="container">
                 <Information/>
@@ -19,7 +19,7 @@ function HomePage() {
                 
             </div>
             
-        </>
+        </div>
     )
 }
 

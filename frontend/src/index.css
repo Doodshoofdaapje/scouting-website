@@ -56,6 +56,11 @@ h3 {
   margin:auto;
 }
 
+.homepage .container {
+  padding: 5vh 10%;
+  margin:auto;
+}
+
 .row {
   display: flex;
 }
