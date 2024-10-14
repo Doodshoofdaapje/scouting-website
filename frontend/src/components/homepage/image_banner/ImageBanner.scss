@@ -1,7 +1,7 @@
 .image-container {
     margin-top: 5vh;
     width: 100%;
-    height: 50vh; /* Set the desired height */
+    height: 60vh; /* Set the desired height */
     overflow: hidden; /* Hide overflowing content */
     position: relative;
     display: flex;
@@ -19,6 +19,11 @@
 // Phone styling
 @media screen and (max-width: 750px) {
   .image-container {
-    height: 35vh;
+    height: 60vh;
+  }
+
+  .cropped-image {
+    height:100%;
+    width: 100%;
   }
 }
