@@ -8,6 +8,6 @@ export default defineConfig({
     react(), 
     markdown(),
   ],
-  base: "/scouting-website/#",
+  base: "/#",
   assetsInclude: ['**/*.md'],
 })

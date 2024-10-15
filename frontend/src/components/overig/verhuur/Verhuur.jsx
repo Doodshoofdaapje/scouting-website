@@ -11,7 +11,7 @@ function Verhuur() {
             <div className='page-header'>
                 <div>
                     <p>
-                        Het scouting gebouw is in een te huren voor groepsactiviteiten van bijvoorbeeld scoutinggroepen of scholen, maar NIET voor feesten. 
+                        Het scouting gebouw is te huren voor groepsactiviteiten van bijvoorbeeld scoutinggroepen of scholen, maar NIET voor feesten. 
                         Het is ook mogelijk het gebouw gedeeltelijk te huren.
                     </p>
                     <img src={imgLogo}/>

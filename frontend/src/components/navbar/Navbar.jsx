@@ -21,7 +21,7 @@ function Navbar() {
         <div className='navbar-container'>   
             <nav className="navbar"> 
                 <div className='navbar-logo-container'>
-                    <a className = "navbar-logo" href="/scouting-website/">
+                    <a className = "navbar-logo" href="/">
                         <img src={logo} ></img>
                     </a> 
                 </div>
