@@ -32,7 +32,7 @@ function ASG_Name() {
             <div className='page-content'>
                 <p>
                     Albert werd geboren in Kaysersberg, een klein plaatsje in Duitsland.
-                    Hij leerde voor dokter en ging daarna, samen met zijn vrouw werken in Afrika.
+                    Hij leerde voor dokter en ging daarna, samen met zijn vrouw, werken in Afrika.
                     Hij werd vooral bekend door Lambarene, het ziekenhuis in Gabon in Centraal-Afrika, 
                     waar hij het grootste deel van zijn leven heeft doorgebracht.
                     Van de overheid kreeg hij in 1924 grond waarop nieuwe barakken werden gebouwd.

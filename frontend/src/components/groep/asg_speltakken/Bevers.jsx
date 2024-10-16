@@ -11,8 +11,8 @@ function Bevers() {
                 </div>
                 
                 <p>
-                    Dit is het jongste onderdeel van onze groep. Bevers zijn kinderen van 5 tot 7 jaar. 
-                    Spelenderwijs maken zij kennis met scouting. Net als de oudere scouts hebben Bevers hun eigen gebruiken, 
+                    Dit is het jongste onderdeel van onze groep. Bevers zijn kinderen van 5 tot 7 jaar, 
+                    spelenderwijs maken zij kennis met scouting. Net als de oudere scouts hebben Bevers hun eigen gebruiken, 
                     die Bevermanieren worden genoemd. Deze gebruiken zijn speels en bevorderen vooral het groepsgevoel. 
                     Op deze manier leren de Bevers spelenderwijs samen te werken. De opkomsten van de bevers zijn elke zaterdagochtend
                     van 10.15 tot 12.15 uur.

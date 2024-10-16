@@ -12,8 +12,8 @@ function Sponsoren() {
             <div className='page-header'>
                 <div>
                     <p>
-                        Sponsoren helpen enorm met het bijhouden van onze scouting. Dankzij hun bijdragen kunnen we onze faciliteiten onderhouden,
-                         nieuwe materialen aanschaffen en bijzondere activiteiten organiseren voor onze leden.
+                        Sponsoren helpen met het bijhouden van onze scouting. Dankzij hun bijdragen kunnen we onze faciliteiten onderhouden en houden we meer
+                        geld over voor leuke activiteiten.
                     </p>
                     {/* <img src={imgStatue}/> */}
                 </div>
@@ -27,7 +27,7 @@ function Sponsoren() {
             
             <div className='page-content'>
                 <p>
-                    Sponsors die een aanzienlijke bijdrage leveren vermelden wij graag op onze website.
+                    Sponsors die een bijdrage leveren vermelden wij graag op onze website.
                 </p>
 
             </div>

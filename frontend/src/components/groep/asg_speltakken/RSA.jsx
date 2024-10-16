@@ -14,7 +14,7 @@ function RSA() {
                     Explorers zijn leden, jongen of meisje, van 15 tot en met 18 jaar. Het onderdeel wordt ook wel RSA genoemd: rowan en sherpa afdeling.
                     Rowan (jongen) en Sherpa (meisje) zijn de 'oude' namen voor dit onderdeel.
                     Ze maken samen plannen. Bepalen hun eigen avontuur. Daarom is geen dag hetzelfde. Van speleologie tot zingen, van kampvuur tot abseilen.  
-                    Samen primitief kamperen, samen een dagje strand en samen lekker stappen.Plannen maken is één. Samen plannen uitvoeren is twee.  
+                    Samen primitief kamperen, samen een dagje strand en samen lekker stappen. Plannen maken is één. Samen plannen uitvoeren is twee.  
                     Je moet er voor praten en luisteren, en besluiten nemen. Maar organiseren valt te leren. Want Explorer ben je gelukkig niet in je eentje. 
                     De taken worden verdeeld. Ieder speelt z'n eigen rol. Maar Explorer ben je niet vrijblijvend. Je hebt respect voor jezelf en voor anderen. 
                     Je wilt leren. Geen beter leven dan buitenleven. En daar moet je zuinig op zijn
