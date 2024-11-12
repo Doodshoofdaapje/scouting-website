@@ -30,7 +30,7 @@ function Verhuur() {
                 </p>
                 <ul>
                     <li>Energie Kosten </li>
-                    <li>Buitensporig hoeveel afval</li>
+                    <li>Buitensporig hoeveelheid afval</li>
                     <li>Schade en/of vermissingen</li>
                 </ul>
 

@@ -6,7 +6,10 @@
     max-width: 400px;
     padding:25px;
 
+    font-size: 0.90rem;
+
     h3 {
+        text-wrap: wrap;
         color:white;
         display: block;
         text-align: left;
@@ -22,9 +25,17 @@
 
         background: white;
     }
+    
+    div {
+        display: flex;
+        flex-wrap: nowrap;
+    }
 
     p {
-        display: flex;
+        min-width: 40%;
+        max-width: 100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
         padding: 0px;
         margin: 0;
         text-align: left;
