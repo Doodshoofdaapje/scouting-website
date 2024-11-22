@@ -32,6 +32,7 @@ function Ligging() {
             
             <div className='page-content'>
                 <p>
+                <b>LETOP: De omgeving van het clubgebouw wordt in de periode van 2025 enorm aangepast. Verdere informatie volgt.</b><br/>
                 Het clubgebouw van de Albert Schweitzergroep bevindt zich in Breda.
                 Het ligt in de Frankenthalerstraat op nummer 6, aan de noord-oost rand van de stad Breda,
                 net buiten de wijk Doornbos. Het terrein grenst aan agrarisch gebied. 

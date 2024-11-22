@@ -40,7 +40,7 @@ function ScoutingNederland() {
 
                 <p>
                     Ruim 1300 groepen door heel Nederland zijn aangesloten bij Scouting Nederland. Nederland is in 47 Scoutingregio's onderverdeeld, elke regio heeft een 
-                    eigen naam en een bestuur van vrijwilligers. Een regio telt gemiddeld zoon dertig Scoutinggroepen. De groepen bepalen het beleid en zijn samen verantwoordelijk 
+                    eigen naam en een bestuur van vrijwilligers. Een regio telt gemiddeld zo’n dertig Scoutinggroepen. De groepen bepalen het beleid en zijn samen verantwoordelijk 
                     voor het goed functioneren van de regio. ASG valt onder regio 64: Regio de Baronie. Het beleid van de scouting nederland wordt vastgesteld door de Landelijke raad, zeg maar 'het parlement' van Scouting. 
                     Het Bestuur van Scouting Nederland is verantwoordelijk voor de beleidsvoorbereiding en de -uitvoering. Het maakt daarbij gebruik van de 
                     medewerkers van het Landelijk servicecentrum.

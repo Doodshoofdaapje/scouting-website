@@ -7,7 +7,7 @@ function News({displayLimit}) {
 
     useEffect(() => {
         const fetchPosts = async () => {
-            const response = await fetch(`./nieuws.json`);
+            const response = await fetch(`./nieuws avg.json`);
 
             if (response.ok) {
                 let content = await response.json();

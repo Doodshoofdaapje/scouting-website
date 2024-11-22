@@ -33,7 +33,7 @@ function Beunloeg() {
 
                 <p>
                     De oorspronkelijke groep krijgt tegenwoordig hulp van wat we noemen: beunploeg 2.0. De ene groep werkt op elke woensdag, de tweede 
-                    beunploef enkele keren per jaar in het weekend. Je bereikt de beunploeg door te mailen naar: onderhoud@asgbreda.nl
+                    beunploef enkele keren per jaar in het weekend. Je bereikt de beunploeg door te mailen naar: <a href="mailto:onderhoud@asgbreda.nl">onderhoud@asgbreda.nl</a>
                 </p>
             </div>
 
@@ -45,7 +45,7 @@ function Beunloeg() {
             
             <div className='page-content'>
                 <p>
-                    Is er iets mis aan het gebouw en wil je dit melden aan de beunploeg? Reparaties kan je altijden melden via E-mail: onderhoud@asgbreda.nl.
+                    Is er iets mis aan het gebouw en wil je dit melden aan de beunploeg? Reparaties kan je altijden melden via E-mail: <a href="mailto:onderhoud@asgbreda.nl">onderhoud@asgbreda.nl</a>
                     Is er iets kapot tijdens het verhuur van het gebouw? Neem dan direct contact op met de beheerder van het verhuur.
                 </p>
             </div>

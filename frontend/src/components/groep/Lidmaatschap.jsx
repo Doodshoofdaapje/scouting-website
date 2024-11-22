@@ -66,7 +66,7 @@ function Lidmaatschap() {
 
             <div className='page-content'>
                 <p>
-                De contributie bedraagt 13,50 euro per maand / 12 maanden per jaar. Vriendelijk vragen we de contributie voor het lidmaatschap van de 
+                De contributie bedraagt per 1 januari 2025 16,50 euro per maand / 12 maanden per jaar. Vriendelijk vragen we de contributie voor het lidmaatschap van de 
                 groep vooraf over te maken via bank of giro. <br/>
 
                 IBAN nummer: NL 72 RABO 0178 9932 47 <br/>
@@ -100,10 +100,10 @@ function Lidmaatschap() {
                 </p>
 
                 <p>
-                Voor meer informatie, verwijzen wij u naar <a href='http://www.jeugdsportfonds.nl/'> www.jeugdsportfonds.nl </a>
+                Voor meer informatie, verwijzen wij u naar <a href='https://jeugdfondssportencultuur.nl/fondsen/breda/' target="_blank"> www.jeugdfondssportencultuur.nl/fondsen/breda/ </a>
                 Ook Scouting Albert Schweitzer Groep is bereid tot verdere uitleg omtrent deze vernieuwde procedure.
                 Voor meer informatie omtrent de aanvraag van een Breda Pas en/of het declareren van de kosten van het kampgeld verwijzen 
-                wij u naar <a href='https://www.breda.nl/'> www.breda.nl </a>
+                wij u naar <a href='https://www.breda.nl/bredapas' target='_blank'> www.breda.nl/bredapas </a>
                 </p>
             </div>
 

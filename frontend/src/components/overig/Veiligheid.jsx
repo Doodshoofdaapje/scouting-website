@@ -103,7 +103,7 @@ function Veiligheid() {
                 <p>
                 Naast het bestuur en het landelijk opvangteam, hebben wij een onafhankelijke vertrouwenspersoon. 
                 Deze persoon heeft enige betrokkenheid bij onze vereniging, maar vervult geen rol in het bestuur of leidingteam.
-                Om in contact te komen met onze vertrouwenspersoon, mail je naar: vertrouwenspersoon@asgbreda.nl
+                Om in contact te komen met onze vertrouwenspersoon, mail je naar: <a href="mailto:vertrouwenspersoon@asgbreda.nl">vertrouwenspersoon@asgbreda.nl</a>
                 </p>
             </div>
             
