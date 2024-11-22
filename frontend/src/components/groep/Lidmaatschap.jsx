@@ -132,7 +132,9 @@ function Lidmaatschap() {
                 </p>
 
                 <div className='download object-array'>
-                    <button> Download huishoudelijk reglement </button>
+                    <div className='download'>
+                        <a href="https://www.scouting.nl/assets/uploads/doorzoekbareBestanden/06.Ondersteuning/Bestuurlijke-zaken/Huishoudelijk%20reglement%20en%20statuten/Huishoudelijk_reglement_2023.pdf"> <button> Download huishoudelijk reglement </button> </a>
+                    </div>
                 </div>
                 
             </div>
