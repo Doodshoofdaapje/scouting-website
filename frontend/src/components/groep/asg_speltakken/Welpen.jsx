@@ -29,9 +29,9 @@ function Welpen() {
                     Bijeenkomsten zijn elke zaterdagochtend van 10.15 tot 12.15 uur.
                 </p>
                 
-                <div className='content-image'>
+                {/* <div className='content-image'>
                     <img src={imgWelpen}/>
-                </div>
+                </div> */}
 
                 <hr/>
 

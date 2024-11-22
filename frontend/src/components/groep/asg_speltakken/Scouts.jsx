@@ -1,5 +1,5 @@
 import '../../Page.scss';
-import imgScouts from '../../../assets/asg_speltakken/scouts.jpg';
+import imgScouts from '../../../assets/asg_speltakken/scouts.png';
 import imgHelena from '../../../assets/asg_speltakken/helena.jpg';
 
 function Scouts() {

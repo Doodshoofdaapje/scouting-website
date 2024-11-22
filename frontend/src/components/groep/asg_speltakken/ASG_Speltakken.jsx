@@ -1,6 +1,6 @@
 import imgBevers from '../../../assets/asg_speltakken/bevers.jpg';
 import imgWelpen from '../../../assets/asg_speltakken/welpen.jpg';
-import imgScouts from '../../../assets/asg_speltakken/scouts.jpg';
+import imgScouts from '../../../assets/asg_speltakken/scouts.png';
 import imgRSA from '../../../assets/asg_speltakken/rsa.jpg';
 import imgPivos from '../../../assets/asg_speltakken/pivos.jpg';
 import imgSenioren from '../../../assets/asg_speltakken/senioren.png';

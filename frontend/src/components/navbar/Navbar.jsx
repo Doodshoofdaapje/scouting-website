@@ -58,7 +58,7 @@ function Navbar() {
                         <a href='#/uniform'> <li>Uniform</li> </a>
                         <a href='#/lidmaatschap'> <li>Lidmaatschap</li> </a>
                         <a href='#/groepsbestuur'><li>Groepsbestuur</li> </a>
-                        <a href='#/groepsdag'><li>Groepsdag</li></a>
+                        {/* <a href='#/groepsdag'><li>Groepsdag</li></a> */}
                     </ul>
                     <ul>
                         <p>Scouting</p>
