@@ -137,7 +137,6 @@ function Contact() {
 
                 <div className='contact-block'>
                     <h3>Verhuur</h3>
-                    <div><img src={iconPhone}/><p> 06 147 76 156</p></div>
                     <div><img src={iconMail}/><p> verhuur@asgbreda.nl</p></div>
                 </div>
         </div>

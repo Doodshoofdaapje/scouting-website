@@ -55,7 +55,7 @@ function Verhuur() {
             <div className='page-content'>
                 <p>
                     Ons magazijn bevat een groot aantal kampeerartikelen en ook die zijn (samen met het gebouw) te huur. Voor informatie over het huren van 
-                    het gebouw of van materiaal kun je je wenden tot Henk Verleg: <a href="mailto:verhuur@asgbreda.nl">verhuur@asgbreda.nl</a>, <a href="mailto:webmaster@asgbreda.nl">webmaster@asgbreda.nl</a>. Ook voor aanvraag van huur kun je je wenden tot Henk Verleg.
+                    het gebouw, of van materiaal, kun je je wenden tot <a href="mailto:verhuur@asgbreda.nl">verhuur@asgbreda.nl</a>, <a href="mailto:webmaster@asgbreda.nl">webmaster@asgbreda.nl</a>. 
                     Alleen als de gegevens COMPLEET worden aangeleverd wordt verhuur in overweging genomen.
                 </p>
   
