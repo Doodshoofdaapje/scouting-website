@@ -56,6 +56,7 @@ function Ligging() {
                 Het centrum van de stad en het station NS zijn prima bereikbaar met de bus. (200 meter naar bushalte)
                 Het NS station BREDA is ook in minder dan 25 minuten te belopen.
                 </p>
+                <h2> LET OP: i.v.m. recente woningbouw rondom het scouting terrein zijn niet alle foto's meer actueel. Foto's worden bijgewerkt wanneer de bouw is afgerond.</h2>
             </div>
 
             <div className='image-gallery'>

@@ -68,9 +68,11 @@ function GebouwInformatie() {
 
                 <p> De overige ruimtes zijn in gebruik o.a. als magazijn en worden niet verhuurd. Het gebouw is telefonisch bereikbaar onder nummer: 076-5711983</p>
 
+                <h2> LET OP: i.v.m. recente woningbouw rondom het scouting terrein zijn niet alle foto's meer actueel. Foto's worden bijgewerkt wanneer de bouw is afgerond.</h2>
             </div>
 
             <div className='image-gallery'>
+                
                 {images.map((source)=> (
                     <div key={source}>
                         <ZoomableImage src={source}/>

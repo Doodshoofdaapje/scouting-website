@@ -29,8 +29,8 @@ function OpenbaarVervoer() {
             </div>
             
             <div className='page-content'>
-                <p>
-                    <b>LETOP: De omgeving van het clubgebouw wordt in de periode van 2025 enorm aangepast, mogelijk dus ook het openbaar vervoer. Verdere informatie volgt.</b><br/>
+                <h2> LETOP: De omgeving van het clubgebouw wordt in de periode van 2025 enorm aangepast i.v.m. nieuwe woningbouw. Het is dus mogelijk dat het openbaar vervoer ook wordt aangepast. Verdere informatie volgt.</h2>
+                <p>                 
                     Het scoutinggebouw is uitstekend bereikbaar per openbaar vervoer. Eenmaal aangekomen op het station, is het slechts een korte reis naar ons scoutinggebouw.
                     Vanaf NS station Breda is het eenvoudig om ons te bereiken met de bus. Er zijn meerdere mogelijkheden voor de bus:
                      

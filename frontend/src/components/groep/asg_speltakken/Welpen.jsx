@@ -1,5 +1,5 @@
 import '../../Page.scss';
-import imgWelpen from '../../../assets/asg_speltakken/welpengroep.png';
+import imgWelpen from '../../../assets/asg_speltakken/welpenbrandweer.jpeg';
 import imgOeghana from '../../../assets/asg_speltakken/oeghanga.jpg';
 
 function Welpen() {
@@ -29,9 +29,9 @@ function Welpen() {
                     Bijeenkomsten zijn elke zaterdagochtend van 10.15 tot 12.15 uur.
                 </p>
                 
-                {/* <div className='content-image'>
+                <div className='content-image'>
                     <img src={imgWelpen}/>
-                </div> */}
+                </div>
 
                 <hr/>
 

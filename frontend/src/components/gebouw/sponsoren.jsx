@@ -26,9 +26,6 @@ function Sponsoren() {
             </div>
             
             <div className='page-content'>
-                <p>
-                    Sponsors die een bijdrage leveren vermelden wij graag op onze website.
-                </p>
 
             </div>
 
