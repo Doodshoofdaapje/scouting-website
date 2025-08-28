@@ -1,5 +1,9 @@
 @import '../main.scss';
 
+.center {   
+    display: flex;
+    justify-content: center;
+}
 
 .page-header {
     display: flex;

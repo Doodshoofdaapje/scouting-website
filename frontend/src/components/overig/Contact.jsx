@@ -2,6 +2,7 @@ import '../Page.scss';
 import './Contact.scss'
 import iconMail from '../../assets/mail_icon.svg';
 import iconPhone from '../../assets/phone_icon.svg';
+import iconLocation from '../../assets/location_icon.svg';
 import imgContact from '../../assets/contact.png';
 
 function Contact() {
@@ -22,51 +23,24 @@ function Contact() {
             
             <div className='content-header'>
                 <h1>
-                Contact Groep
+                Adres
                 </h1>
             </div>
 
-            <div className='image-gallery'>
+            <div className='center'>
+                <div className='address-block'>
+                    <img src={iconLocation}/>
 
-            <div className='contact-block'>
-                <h3>Voorzitter Groep</h3>
-                <div><img src={iconMail}/><p>voorzitter@asgbreda.nl</p></div>
-            </div>
-
-            <div className='contact-block'>
-                <h3>Secretaris Groep</h3>
-                <div><img src={iconMail}/><p>secretaris@asgbreda.nl</p></div>
-            </div>
-
-            <div className='contact-block'>
-                <h3>Penningmeester Groep</h3>
-                <div><img src={iconPhone}/><p>06 531 20 689</p></div>
-                <div><img src={iconMail}/><p>penningmeester@asgbreda.nl</p></div>
-            </div>
-
-            <div className='contact-block'>
-                <h3>Praktijk begeleiding</h3>
-                <div><img src={iconPhone}/><p>06 539 64 550</p></div>
-                <div><img src={iconMail}/><p>voorzitter@asgbreda.nl</p></div>
-            </div>
-
-            <div className='contact-block'>
-                <h3>Magazijn</h3>
-                <div><img src={iconPhone}/><p>06 504 01 997</p></div>
-                <div><img src={iconPhone}/><p>06 145 61 524</p></div>
-                <div><img src={iconMail}/><p>magazijn@asgbreda.nl</p></div>
-            </div>
-
-            <div className='contact-block'>
-                <h3>Onderhoud</h3>
-                <div><img src={iconMail}/><p>onderhoud@asgbreda.nl</p></div>
-            </div>
-
-            <div className='contact-block'>
-                <h3>Website</h3>
-                <div><img src={iconMail}/><p>webmaster@asgbreda.nl</p></div>
-            </div>
-
+                    <div className='contact-block'> 
+                        <h3>
+                            Adres Gebouw
+                        </h3>
+                        <p>
+                            Albert Schweitzer Groep, <br/>
+                            Frankenthalerstraat 6, 4816 KA BREDA. <br/>
+                        </p>
+                    </div>
+                </div>
             </div>
 
             <div className='content-header'>
@@ -77,37 +51,85 @@ function Contact() {
 
             <div className='image-gallery'>
 
-            <div className='contact-block'>
-                <h3>Bevers</h3>
-                <div><img src={iconPhone}/><p>06 539 64 550</p></div>
-                <div><img src={iconMail}/><p>bevers@asgbreda.nl</p></div>
+                <div className='contact-block'>
+                    <h3>Bevers</h3>
+                    <div><img src={iconMail}/><p>bevers@asgbreda.nl</p></div>
+                </div>
+
+                <div className='contact-block'>
+                    <h3>Welpen</h3>
+                    <div><img src={iconMail}/><p>welpen@asgbreda.nl</p></div>
+                </div>
+
+                <div className='contact-block'>
+                    <h3>Scouts</h3>
+                    <div><img src={iconMail}/><p>scouts@asgbreda.nl</p></div>
+                </div>
+
+                <div className='contact-block'>
+                    <h3>RSA</h3>
+                    <div><img src={iconMail}/><p>rsa@asgbreda.nl</p></div>
+                </div>
+
+                <div className='contact-block'>
+                    <h3>Pivo</h3>
+                    <div><img src={iconMail}/><p>pivo@asgbreda.nl</p></div>
+                </div>
+
+                <div className='contact-block'>
+                    <h3>Senioren</h3>
+                    <div><img src={iconPhone}/><p>06 308 47 879</p></div>
+                    <div><img src={iconMail}/><p>senioren@asgbreda.nl</p></div>
+                </div>
+
             </div>
 
-            <div className='contact-block'>
-                <h3>Welpen</h3>
-                <div><img src={iconMail}/><p>welpen@asgbreda.nl</p></div>
+            <div className='content-header'>
+                <h1>
+                Contact Groep
+                </h1>
             </div>
 
-            <div className='contact-block'>
-                <h3>Scouts</h3>
-                <div><img src={iconMail}/><p>scouts@asgbreda.nl</p></div>
-            </div>
+            <div className='image-gallery'>
 
-            <div className='contact-block'>
-                <h3>RSA</h3>
-                <div><img src={iconMail}/><p>rsa@asgbreda.nl</p></div>
-            </div>
+                <div className='contact-block'>
+                    <h3>Voorzitter Groep</h3>
+                    <div><img src={iconMail}/><p>voorzitter@asgbreda.nl</p></div>
+                </div>
 
-            <div className='contact-block'>
-                <h3>Pivo</h3>
-                <div><img src={iconMail}/><p>pivo@asgbreda.nl</p></div>
-            </div>
+                <div className='contact-block'>
+                    <h3>Secretaris Groep</h3>
+                    <div><img src={iconMail}/><p>secretaris@asgbreda.nl</p></div>
+                </div>
 
-            <div className='contact-block'>
-                <h3>Senioren</h3>
-                <div><img src={iconPhone}/><p>06 308 47 879</p></div>
-                <div><img src={iconMail}/><p>senioren@asgbreda.nl</p></div>
-            </div>
+                <div className='contact-block'>
+                    <h3>Penningmeester Groep</h3>
+                    <div><img src={iconPhone}/><p>06 531 20 689</p></div>
+                    <div><img src={iconMail}/><p>penningmeester@asgbreda.nl</p></div>
+                </div>
+
+                <div className='contact-block'>
+                    <h3>Praktijk begeleiding</h3>
+                    <div><img src={iconPhone}/><p>06 539 64 550</p></div>
+                    <div><img src={iconMail}/><p>voorzitter@asgbreda.nl</p></div>
+                </div>
+
+                <div className='contact-block'>
+                    <h3>Magazijn</h3>
+                    <div><img src={iconPhone}/><p>06 504 01 997</p></div>
+                    <div><img src={iconPhone}/><p>06 145 61 524</p></div>
+                    <div><img src={iconMail}/><p>magazijn@asgbreda.nl</p></div>
+                </div>
+
+                <div className='contact-block'>
+                    <h3>Onderhoud</h3>
+                    <div><img src={iconMail}/><p>onderhoud@asgbreda.nl</p></div>
+                </div>
+
+                <div className='contact-block'>
+                    <h3>Website</h3>
+                    <div><img src={iconMail}/><p>webmaster@asgbreda.nl</p></div>
+                </div>
 
             </div>
 
@@ -139,8 +161,7 @@ function Contact() {
                     <h3>Verhuur</h3>
                     <div><img src={iconMail}/><p> verhuur@asgbreda.nl</p></div>
                 </div>
-        </div>
-            
+            </div>
         </div>
         </>
     )

@@ -1,5 +1,20 @@
 @import '../../main.scss';
 
+.address-block {
+    background-color: $background-green;
+    color:white;
+    display: flex;
+
+    width: 600px;
+    min-width: 300px;
+    
+    img {
+        justify-content: center;
+        padding:25px;
+        width: 10%;
+    }
+}
+
 .contact-block {
     background-color: $background-green;
     color:white;
