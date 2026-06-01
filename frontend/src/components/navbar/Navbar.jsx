@@ -51,7 +51,7 @@ function Navbar() {
             <div className={`grid-content collapse-content ${isOpen ? 'open' : ''}`}>
                     <ul> 
                         <p>Groep</p>
-                        <a href='#/infographic'> <li>Infographic ASG</li> </a>
+                        {/* <a href='#/infographic'> <li>Infographic ASG</li> </a> */}
                         <a href='#/naam'> <li>Naam ASG</li> </a>
                         <a href='#/geschiedenis'><li>Geschiedenis ASG</li></a>
                         <a href='#/speltakken'> <li>Speltakken</li> </a>
@@ -76,15 +76,15 @@ function Navbar() {
                         <a href='#/sponsoren'><li>Sponsoren</li></a>
                     </ul>
 
-                    <ul> 
+                    {/* <ul> 
                         <p>Beunploeg</p>
                         <a href="#/beunploeg"><li>Informatie</li></a>
                         <a href="#/onderhoud"><li>Onderhoud</li></a>
-                        {/* <a href="#/groen"><li>Groen</li></a> */}
+                        <a href="#/groen"><li>Groen</li></a>
                         <a href="#/historie"><li>Historie</li></a>
                         <a href="#/beunkenmerk"><li>Beunkeurmerk</li></a>
                         <a href="#/mollenteller"><li>Mollenteller</li></a>
-                    </ul>
+                    </ul> */}
                     <ul> 
                         <p>Overig</p>
                         <a href="#/verhuur"><li>Verhuur</li></a>
@@ -92,6 +92,7 @@ function Navbar() {
                         <a href="#/contact"><li>Contact</li></a>
                         <a href="#/privacy"><li>Privacy</li></a>
                         <a href="#/veiligheid"><li>Veiligheid</li></a>
+                        <a href="#/beunploeg"><li>Beunploeg</li></a>
                     </ul>
                 </div>
         </div>

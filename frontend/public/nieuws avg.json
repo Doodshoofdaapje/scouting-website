@@ -1,6 +1,17 @@
 [
     {
-        "id":"0",
+        "id":"5",
+        "title":"Brandweer Dag",
+        "text":"De welpen kregen vandaag een unieke kans om bij de brandweer mee te kijken. Hier kregen ze uitleg over hoe de bandweer te werk gaat, en mochten zelfs spelen met de water kanonnen",
+        "image": "./assets/nieuws/brandweerdag/welpenbrandweer.jpeg",
+        "gallery": [
+            "./assets/nieuws/brandweerdag/welpenbrandweer.jpeg",
+            "./assets/nieuws/brandweerdag/IMG-20260506-WA0002.jpg",
+            "./assets/nieuws/brandweerdag/IMG-20260506-WA0003.jpg"
+        ]
+    },
+    {
+        "id":"4",
         "title":"Groepsdag 2023",
         "text":"De officiële opening van het scoutingjaar. Overvliegen via een hindernisbaan naar de volgende speltak, als je daar de leeftijd voor hebt. De tropische temperatuur maakte de vakkundig gepionierde waterglijbaan tot een eindeloze belevenis. Gezamenlijk lunchen en... te warm voor het middagprogramma. Wel samen opruimen ook al is het 32 graden! Compliment voor ieder die hielp.",
         "image": "./assets/groepsdag/20241.jpeg",
@@ -40,7 +51,7 @@
         ]
     },
     {
-        "id":"1",
+        "id":"3",
         "title":"Beverweekend Superhelden",
         "text":"20 en 21 mei 2023 blijven de bevers samen een weekend op het HK. Voor enkele bevers is het eerste keer van huis. Superhelden, daar gaat het over!",
         "image": "./assets/nieuws/superhelden1.jpg",
@@ -88,7 +99,7 @@
         ]
     },
     {
-        "id":"3",
+        "id":"1",
         "title":"Nieuwsjaarreceptie 2023",
         "text":"Het was gezellig druk, eel ouders, leden, leiding, bestuursleden. Een dankwoordje van onze groepsvoorzitter, Peter Bosma. Ook al is het vreselijk nat buiten worden er binnen genoeg spelletjes gedaan. Genieten van allerlei lekkere dingen; door ouders en leiding gemaakte soep, broodjes, snacks, hapjes. En een verrassing mee naar huis.",
         "image": "./assets/nieuws/nieuwsjaarreceptie1.jpeg",
@@ -122,7 +133,7 @@
         ]        
     },
     {
-        "id":"4",
+        "id":"0",
         "title":"Installatie Bevers",
         "text":"Op 26 november 2022 hadden we een gezellige dag. De ouders kwamen op bezoek, en samen bakten we heerlijke appelflappen. Daarnaast vond de installatie van onze nieuwe bevers plaats; nu hoor je er echt bij en ben je officieel onderdeel van de groep..",
         "image": "./assets/nieuws/installatiebevers1.jpeg",

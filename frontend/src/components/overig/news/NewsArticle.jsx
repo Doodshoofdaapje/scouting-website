@@ -13,7 +13,7 @@ function NewsArticle() {
 
       if (response.ok) {
           let content = await response.json();
-          setArticle(content[id]);
+          setArticle(content[content.length - id - 1]);
       } else {
           console.error("File not found")
       }

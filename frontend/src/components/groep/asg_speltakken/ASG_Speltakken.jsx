@@ -5,6 +5,7 @@ import imgRSA from '../../../assets/asg_speltakken/rsa.jpg';
 import imgPivos from '../../../assets/asg_speltakken/pivos.jpg';
 import imgSenioren from '../../../assets/asg_speltakken/senioren.png';
 import imgFlags from '../../../assets/asg_speltakken/vlaggen.jpg';
+import imgInfographic from '../../../assets/infographic.jpg';
 import '../../Page.scss';
 
 function ASG_Speltakken() {
@@ -109,6 +110,22 @@ function ASG_Speltakken() {
                     </div>
                 </a>     
             </div>
+
+            <div className='content-header'>
+                <h1>
+                    Infographic
+                </h1>
+                <p>
+                    Wil je alle informatie nog even op een rijtje zien? Dan is deze infographic perfect voor jou. We vatten in het kort alle speltaken en onze belangrijste
+                    normen en waarden samen
+                </p>
+            </div>
+            
+            
+            <div className='content-image'>
+                <img src={imgInfographic}/>
+            </div>
+
         </div>
 
         </>

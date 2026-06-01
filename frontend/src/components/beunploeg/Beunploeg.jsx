@@ -45,8 +45,8 @@ function Beunloeg() {
             
             <div className='page-content'>
                 <p>
-                    Is er iets mis aan het gebouw en wil je dit melden aan de beunploeg? Reparaties kan je altijden melden via E-mail: <a href="mailto:onderhoud@asgbreda.nl">onderhoud@asgbreda.nl</a>
-                    Is er iets kapot tijdens het verhuur van het gebouw? Neem dan direct contact op met de beheerder van het verhuur.
+                    Is er iets mis aan het gebouw en wil je dit melden aan de beunploeg? Reparaties kan je altijden melden via E-mail: <a href="mailto:onderhoud@asgbreda.nl">onderhoud@asgbreda.nl</a> Is 
+                    er iets kapot tijdens het verhuur van het gebouw? Neem dan direct contact op met de beheerder van het verhuur.
                 </p>
             </div>
 

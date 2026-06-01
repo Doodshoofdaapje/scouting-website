@@ -58,7 +58,7 @@ function Contact() {
 
                 <div className='contact-block'>
                     <h3>Welpen</h3>
-                    <div><img src={iconMail}/><p>welpen@asgbreda.nl</p></div>
+                    <div><img src={iconMail}/><p>welpengroep@asgbreda.nl</p></div>
                 </div>
 
                 <div className='contact-block'>
@@ -125,12 +125,6 @@ function Contact() {
                     <h3>Onderhoud</h3>
                     <div><img src={iconMail}/><p>onderhoud@asgbreda.nl</p></div>
                 </div>
-
-                <div className='contact-block'>
-                    <h3>Website</h3>
-                    <div><img src={iconMail}/><p>webmaster@asgbreda.nl</p></div>
-                </div>
-
             </div>
 
             <div className='content-header'>
