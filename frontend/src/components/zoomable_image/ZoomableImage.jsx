@@ -11,11 +11,11 @@ function ZoomableImage({src}) {
     return (
         <div className={`zoom-container ${selected ? "selected" : "hidden"}`  }>
             <div className='source-image'>
-                <img onClick={onClickHandler} src={src} />
+                <img onClick={onClickHandler} src={src} loading="lazy" />
             </div>
 
             <div className='scaled-image' onClick={onClickHandler}>
-                <img src={src} />
+                <img src={src} loading="lazy" />
             </div>
 
             <div className="close-button" onClick={onClickHandler}>

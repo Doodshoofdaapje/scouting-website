@@ -20,6 +20,18 @@ function Verhuur() {
 
             <div className='content-header'>
                 <h1>
+                    Gebouw Informatie
+                </h1>
+            </div>
+
+            <div className='page-content'>
+                <p>
+                    Voor informatie en foto's van het gebouw, klik <a href="#/gebouwinformatie">hier</a>.
+                </p>
+            </div>
+
+            <div className='content-header'>
+                <h1>
                     Kosten
                 </h1>
             </div>
